@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1457.4 1028.4" style="enable-background:new 0 0 1457.4 1028.4;" xml:space="preserve">
+	 viewBox="0 0 1278.6 856.9" style="enable-background:new 0 0 1278.6 856.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{enable-background:new    ;}
 	.st1{fill:#005460;}
@@ -26,23 +26,24 @@
 	.st20{font-size:45px;}
 	.st21{font-family:'TimesNewRomanPS-BoldMT';}
 	.st22{font-size:32px;}
-	.st23{font-size:19.7019px;}
-	.st24{font-size:47.7148px;}
-	.st25{fill:none;stroke:#23005F;stroke-width:0.75;stroke-miterlimit:10;}
-	.st26{fill:#FFFFFF;}
-	.st27{font-size:4.4897px;}
-	.st28{font-size:4.0126px;}
-	.st29{font-size:4.0123px;}
-	.st30{font-size:11.0028px;}
-	.st31{font-size:10.3603px;}
+	.st23{letter-spacing:26.8;}
+	.st24{font-size:19.7019px;}
+	.st25{font-size:47.7148px;}
+	.st26{fill:none;stroke:#23005F;stroke-width:0.75;stroke-miterlimit:10;}
+	.st27{fill:#FFFFFF;}
+	.st28{font-size:4.4897px;}
+	.st29{font-size:4.0126px;}
+	.st30{font-size:4.0123px;}
+	.st31{font-size:10.7074px;}
 	.st32{font-size:3.5335px;}
-	.st33{opacity:0.78;fill:none;stroke:#004D40;stroke-miterlimit:10;}
+	.st33{opacity:0.78;fill:none;stroke:#004D40;stroke-miterlimit:10;enable-background:new    ;}
+	.st34{fill:#009FB4;}
 </style>
 <g>
 	<g>
 		<g>
 			
-				<image style="overflow:visible;enable-background:new    ;" width="1067" height="118" xlink:href="B5BEEBF3.png"  transform="matrix(0.999 0 0 0.999 320.8723 821.0783)">
+				<image style="overflow:visible;enable-background:new    ;" width="1067" height="118" xlink:href="B5BEEBF3.png"  transform="matrix(0.999 0 0 0.999 178.4468 688.3762)">
 			</image>
 		</g>
 	</g>
@@ -50,35 +51,35 @@
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="646" height="271" xlink:href="B5BEEBF1.png"  transform="matrix(0.9981 0 0 0.9981 730.9022 644.6696)">
+			<image style="overflow:visible;enable-background:new    ;" width="646" height="271" xlink:href="B5BEEBF1.png"  transform="matrix(0.9981 0 0 0.9981 588.4767 511.9675)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="88" height="511" xlink:href="B5BEEBFE.png"  transform="matrix(0.4891 0 0 0.4891 357.2998 681.0646)">
+			<image style="overflow:visible;enable-background:new    ;" width="88" height="511" xlink:href="B5BEEBFE.png"  transform="matrix(0.4891 0 0 0.4891 214.8743 548.3624)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="86" height="512" xlink:href="B5BEEBFF.png"  transform="matrix(0.4885 0 0 0.4885 402.8992 629.1094)">
+			<image style="overflow:visible;enable-background:new    ;" width="86" height="512" xlink:href="B5BEEBFF.png"  transform="matrix(0.4885 0 0 0.4885 260.4737 496.4073)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="88" height="512" xlink:href="B5BEEBF2.png"  transform="matrix(0.4881 0 0 0.4881 650.2337 629.19)">
+			<image style="overflow:visible;enable-background:new    ;" width="88" height="512" xlink:href="B5BEEBF2.png"  transform="matrix(0.4881 0 0 0.4881 507.8082 496.4879)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="88" height="512" xlink:href="B5BEEBF5.png"  transform="matrix(0.4881 0 0 0.4881 605.1497 682.0576)">
+			<image style="overflow:visible;enable-background:new    ;" width="88" height="512" xlink:href="B5BEEBF5.png"  transform="matrix(0.4881 0 0 0.4881 462.7242 549.3555)">
 		</image>
 	</g>
 </g>
@@ -86,60 +87,60 @@
 	<g>
 		<g class="st0">
 			<g>
-				<polygon class="st1" points="723.3,648.8 723.3,664.3 380.9,663.1 380.9,647.7 				"/>
+				<polygon class="st1" points="580.9,516.1 580.9,531.6 238.5,530.4 238.5,515 				"/>
 			</g>
 			<g>
-				<polygon class="st2" points="380.9,647.7 380.9,663.1 323.7,730.5 323.7,715 				"/>
+				<polygon class="st2" points="238.5,515 238.5,530.4 181.3,597.8 181.3,582.3 				"/>
 			</g>
 			<g>
-				<polygon class="st3" points="666,716.2 666,731.6 323.7,730.5 323.7,715 				"/>
+				<polygon class="st3" points="523.6,583.5 523.6,598.9 181.3,597.8 181.3,582.3 				"/>
 			</g>
 			<g>
-				<polygon class="st4" points="723.3,648.8 723.3,664.3 666,731.6 666,716.2 				"/>
+				<polygon class="st4" points="580.9,516.1 580.9,531.6 523.6,598.9 523.6,583.5 				"/>
 			</g>
 			<g>
-				<polygon class="st5" points="380.9,647.7 723.3,648.8 666,716.2 323.7,715 				"/>
+				<polygon class="st5" points="238.5,515 580.9,516.1 523.6,583.5 181.3,582.3 				"/>
 			</g>
 			<g>
-				<polygon class="st1" points="666.5,717.1 666.5,732.6 321.6,731.4 321.6,715.9 				"/>
+				<polygon class="st1" points="524.1,584.4 524.1,599.9 179.2,598.7 179.2,583.2 				"/>
 			</g>
 			<g>
-				<polygon class="st2" points="725.4,647.9 725.4,663.3 666.5,732.6 666.5,717.1 				"/>
+				<polygon class="st2" points="583,515.2 583,530.6 524.1,599.9 524.1,584.4 				"/>
 			</g>
 			<g>
-				<path class="st6" d="M380.4,646.7l344.9,1.2l-58.9,69.2l-344.9-1.2L380.4,646.7z M666,716.2l57.2-67.3l-342.4-1.2L323.6,715
-					L666,716.2"/>
+				<path class="st6" d="M238,514l344.9,1.2L524,584.4l-344.9-1.2L238,514z M523.6,583.5l57.2-67.3L238.4,515l-57.2,67.3
+					L523.6,583.5"/>
 			</g>
 		</g>
 	</g>
 </g>
-<polygon id="Water_Tank_Base" class="st7" points="665.8,717.5 323.5,715.7 381.1,648 723.4,649.7 "/>
+<polygon id="Water_Tank_Base" class="st7" points="523.4,584.8 181.1,583 238.7,515.3 581,517 "/>
 <g>
 	<g>
 		<g class="st0">
 			<g>
-				<polygon class="st8" points="380.3,461.9 725.3,463.1 725.3,648.5 380.3,647.3 				"/>
+				<polygon class="st8" points="237.9,329.2 582.9,330.4 582.9,515.8 237.9,514.6 				"/>
 			</g>
 			<g>
-				<polygon class="st8" points="723.2,464 723.2,649.4 380.8,648.3 380.8,462.8 				"/>
+				<polygon class="st8" points="580.8,331.3 580.8,516.7 238.4,515.6 238.4,330.1 				"/>
 			</g>
 			<g>
-				<polygon class="st3" points="380.8,462.8 723.2,464 723.2,649.4 380.8,648.3 				"/>
+				<polygon class="st3" points="238.4,330.1 580.8,331.3 580.8,516.7 238.4,515.6 				"/>
 			</g>
 			<g>
-				<polygon class="st9" points="321.5,531.1 380.3,461.9 380.3,647.3 321.5,716.5 				"/>
+				<polygon class="st9" points="179.1,398.4 237.9,329.2 237.9,514.6 179.1,583.8 				"/>
 			</g>
 			<g>
-				<polygon class="st9" points="380.8,462.8 380.8,648.3 323.6,715.6 323.6,530.2 				"/>
+				<polygon class="st9" points="238.4,330.1 238.4,515.6 181.2,582.9 181.2,397.5 				"/>
 			</g>
 			<g>
-				<polygon class="st4" points="323.6,530.2 380.8,462.8 380.8,648.3 323.6,715.6 				"/>
+				<polygon class="st4" points="181.2,397.5 238.4,330.1 238.4,515.6 181.2,582.9 				"/>
 			</g>
 			<g>
-				<polygon class="st9" points="665.9,531.4 723.2,464 723.2,649.4 665.9,716.8 				"/>
+				<polygon class="st9" points="523.5,398.7 580.8,331.3 580.8,516.7 523.5,584.1 				"/>
 			</g>
 			<g>
-				<polygon class="st4" points="723.2,464 723.2,649.4 665.9,716.8 665.9,531.4 				"/>
+				<polygon class="st4" points="580.8,331.3 580.8,516.7 523.5,584.1 523.5,398.7 				"/>
 			</g>
 		</g>
 	</g>
@@ -147,198 +148,198 @@
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="509" height="153" xlink:href="C70F2020.png"  transform="matrix(0.1965 0 0 0.1965 726.3216 636.3215)">
+			<image style="overflow:visible;enable-background:new    ;" width="509" height="153" xlink:href="C70F2020.png"  transform="matrix(0.1965 0 0 0.1965 583.8961 503.6194)">
 		</image>
 	</g>
 </g>
 <g class="st10">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="512" height="128" xlink:href="C70F202F.png"  transform="matrix(0.6774 0 0 0.6774 1028.5571 644.6793)">
+			<image style="overflow:visible;enable-background:new    ;" width="512" height="128" xlink:href="C70F202F.png"  transform="matrix(0.6774 0 0 0.6774 886.1316 511.9772)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="54" height="511" xlink:href="C52FA6DB.png"  transform="matrix(0.5752 0 0 0.5752 1133.2225 358.0558)">
+			<image style="overflow:visible;enable-background:new    ;" width="54" height="511" xlink:href="C52FA6DB.png"  transform="matrix(0.5752 0 0 0.5752 990.797 225.3537)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="511" height="87" xlink:href="C52FA6DC.png"  transform="matrix(0.3464 0 0 0.3464 968.7264 343.5946)">
+			<image style="overflow:visible;enable-background:new    ;" width="511" height="87" xlink:href="C52FA6DC.png"  transform="matrix(0.3464 0 0 0.3464 826.3008 210.8925)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="513" height="43" xlink:href="C52FA6DD.png"  transform="matrix(0.6978 0 0 0.6978 413.7099 343.6572)">
+			<image style="overflow:visible;enable-background:new    ;" width="513" height="43" xlink:href="C52FA6DD.png"  transform="matrix(0.6978 0 0 0.6978 271.2844 210.9551)">
 		</image>
 	</g>
 </g>
-<rect id="Mercury_Left" x="869.2" y="458.7" class="st11" width="7.4" height="37.5"/>
-<rect id="Mercury_Right" x="952.5" y="458.7" class="st11" width="7.5" height="37"/>
+<rect id="Mercury_Left" x="726.8" y="326" class="st11" width="7.4" height="37.5"/>
+<rect id="Mercury_Right" x="810.1" y="326" class="st11" width="7.5" height="37"/>
 <g id="Mercury_Fixed">
 	<g>
-		<path class="st11" d="M960,494.8c0.1,1,0,5.6-0.1,7.4c-0.1,2.7-0.6,9.4-4.9,17.1c-6.3,11.1-15,17.5-16.9,18.4
+		<path class="st11" d="M817.6,362.1c0.1,1,0,5.6-0.1,7.4c-0.1,2.7-0.6,9.4-4.9,17.1c-6.3,11.1-15,17.5-16.9,18.4
 			c-3.2,1.5-11.6,8.3-26.1,6c-14.3-2.3-23.2-10.1-27.5-14.4c-11-10.8-15.1-24-15.1-34.3l7.4,0.3c0,8.5,2.2,18.4,11.2,27.4
 			c3.5,3.5,9.4,10.7,21,12.6c11.8,1.9,21.9-3.1,24.4-4.3c1.5-0.7,9.5-6.3,14.6-15.5c3.6-6.4,4-10.5,4.1-12.8c0.1-1.4,0.7-7,0.6-7.9
-			L960,494.8L960,494.8z"/>
+			L817.6,362.1L817.6,362.1z"/>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="510" height="232" xlink:href="C52FA6DE.png"  transform="matrix(6.307670e-02 0 0 6.307670e-02 857.9922 351.4645)">
+			<image style="overflow:visible;enable-background:new    ;" width="510" height="232" xlink:href="C52FA6DE.png"  transform="matrix(6.307670e-02 0 0 6.307670e-02 715.5667 218.7624)">
 		</image>
 	</g>
 </g>
 <g class="st12">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="258" height="511" xlink:href="C52FA6DA.png"  transform="matrix(0.3759 0 0 0.3759 865.6761 357.2799)">
+			<image style="overflow:visible;enable-background:new    ;" width="258" height="511" xlink:href="C52FA6DA.png"  transform="matrix(0.3759 0 0 0.3759 723.2505 224.5778)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="510" height="154" xlink:href="C52FA743.png"  transform="matrix(0.196 0 0 0.196 762.6209 343.5681)">
+			<image style="overflow:visible;enable-background:new    ;" width="510" height="154" xlink:href="C52FA743.png"  transform="matrix(0.196 0 0 0.196 620.1954 210.866)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="513" height="179" xlink:href="C52FA74B.png"  transform="matrix(0.1677 0 0 0.1677 887.2017 343.6542)">
+			<image style="overflow:visible;enable-background:new    ;" width="513" height="179" xlink:href="C52FA74B.png"  transform="matrix(0.1677 0 0 0.1677 744.7762 210.9521)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="209" height="510" xlink:href="C52FA74A.png"  transform="matrix(0.1416 0 0 0.1416 1071.6562 641.2478)">
+			<image style="overflow:visible;enable-background:new    ;" width="209" height="510" xlink:href="C52FA74A.png"  transform="matrix(0.1416 0 0 0.1416 929.2307 508.5457)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="212" height="510" xlink:href="C52FA74F.png"  transform="matrix(0.1413 0 0 0.1413 811.8473 651.3226)">
+			<image style="overflow:visible;enable-background:new    ;" width="212" height="510" xlink:href="C52FA74F.png"  transform="matrix(0.1413 0 0 0.1413 669.4218 518.6204)">
 		</image>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="511" height="211" xlink:href="C52FA74C.png"  transform="matrix(0.1411 0 0 0.1411 1078.9618 631.4106)">
+			<image style="overflow:visible;enable-background:new    ;" width="511" height="211" xlink:href="C52FA74C.png"  transform="matrix(0.1411 0 0 0.1411 936.5363 498.7085)">
 		</image>
 	</g>
 </g>
 <g id="Motor_Leg_2">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="509" height="501" xlink:href="C52FA74D.png"  transform="matrix(5.544380e-02 0 0 5.544380e-02 1261.8691 676.2634)">
+			<image style="overflow:visible;enable-background:new    ;" width="509" height="501" xlink:href="C52FA74D.png"  transform="matrix(5.544380e-02 0 0 5.544380e-02 1119.4436 543.5613)">
 		</image>
 	</g>
 </g>
 <g id="Motor_Leg_1">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="502" height="502" xlink:href="C52FA74E.png"  transform="matrix(5.577689e-02 0 0 5.577689e-02 1219.614 676.202)">
+			<image style="overflow:visible;enable-background:new    ;" width="502" height="502" xlink:href="C52FA74E.png"  transform="matrix(5.577689e-02 0 0 5.577689e-02 1077.1885 543.4999)">
 		</image>
 	</g>
 </g>
 <g id="Motor_Shaft">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="508" height="144" xlink:href="C52FA752.png"  transform="matrix(0.1199 0 0 0.1199 1160.786 636.666)">
+			<image style="overflow:visible;enable-background:new    ;" width="508" height="144" xlink:href="C52FA752.png"  transform="matrix(0.1199 0 0 0.1199 1018.3605 503.9639)">
 		</image>
 	</g>
 </g>
 <g id="Motor">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="514" height="386" xlink:href="B5BEEBF0.png"  transform="matrix(0.2457 0 0 0.2457 1191.2529 596.2787)">
+			<image style="overflow:visible;enable-background:new    ;" width="514" height="386" xlink:href="B5BEEBF0.png"  transform="matrix(0.2457 0 0 0.2457 1048.8274 463.5766)">
 		</image>
 	</g>
 </g>
-<rect id="Water_1" x="1077" y="651.6" class="st7" width="19.6" height="56.8"/>
-<rect id="Water_9" x="816.9" y="662.6" class="st7" width="19.6" height="56.8"/>
-<rect id="Water_3" x="1140" y="369" class="st7" width="19.6" height="254.5"/>
-<rect id="Water_4" x="1071.3" y="349" class="st7" width="77.5" height="19.6"/>
-<rect id="Water_2" x="1083.2" y="636.5" class="st7" width="56.8" height="19.6"/>
-<rect id="Water_8" x="729.9" y="641.8" class="st7" width="87.2" height="19.6"/>
-<circle id="Suction_Pipe_Corner" class="st13" cx="1089" cy="648.4" r="17.4"/>
-<circle id="Tank_Empty_Corner" class="st13" cx="823.1" cy="655.3" r="17.4"/>
+<rect id="Water_1" x="934.6" y="518.9" class="st7" width="19.6" height="56.8"/>
+<rect id="Water_9" x="674.5" y="529.9" class="st7" width="19.6" height="56.8"/>
+<rect id="Water_3" x="997.6" y="236.3" class="st7" width="19.6" height="254.5"/>
+<rect id="Water_4" x="928.9" y="216.3" class="st7" width="77.5" height="19.6"/>
+<rect id="Water_2" x="940.8" y="503.8" class="st7" width="56.8" height="19.6"/>
+<rect id="Water_8" x="587.5" y="509.1" class="st7" width="87.2" height="19.6"/>
+<circle id="Suction_Pipe_Corner" class="st13" cx="946.6" cy="515.7" r="17.4"/>
+<circle id="Tank_Empty_Corner" class="st13" cx="680.7" cy="522.6" r="17.4"/>
 <g id="Pump">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="398" height="506" xlink:href="C52FA754.png"  transform="matrix(0.1007 0 0 0.1007 1128.7094 619.187)">
+			<image style="overflow:visible;enable-background:new    ;" width="398" height="506" xlink:href="C52FA754.png"  transform="matrix(0.1007 0 0 0.1007 986.2838 486.4849)">
 		</image>
 	</g>
 </g>
-<rect id="Manometer_Water_Right_00000080197925184150286820000005080878160067944331_" x="954.5" y="363.9" class="st7" width="4.2" height="94.8"/>
-<polygon id="Venturimeter_Water_Right" class="st7" points="964.5,367.3 888,363.5 888,354.2 964.5,351.1 "/>
-<rect id="Water_6" x="424.7" y="349.4" class="st7" width="338.9" height="19.6"/>
+<rect id="Manometer_Water_Right_00000080197925184150286820000005080878160067944331_" x="812.1" y="231.2" class="st7" width="4.2" height="94.8"/>
+<polygon id="Venturimeter_Water_Right" class="st7" points="822.1,234.6 745.6,230.8 745.6,221.5 822.1,218.4 "/>
+<rect id="Water_6" x="282.3" y="216.7" class="st7" width="338.9" height="19.6"/>
 <g id="Fringe_4">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="326" height="505" xlink:href="C52FA755.png"  transform="matrix(8.906778e-02 0 0 8.906778e-02 935.72 336.1717)">
+			<image style="overflow:visible;enable-background:new    ;" width="326" height="505" xlink:href="C52FA755.png"  transform="matrix(8.906778e-02 0 0 8.906778e-02 793.2944 203.4696)">
 		</image>
 	</g>
 </g>
 <g id="Fringe_3">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="324" height="505" xlink:href="C52FA756.png"  transform="matrix(8.922845e-02 0 0 8.922845e-02 756.675 336.1311)">
+			<image style="overflow:visible;enable-background:new    ;" width="324" height="505" xlink:href="C52FA756.png"  transform="matrix(8.922845e-02 0 0 8.922845e-02 614.2495 203.429)">
 		</image>
 	</g>
 </g>
 <g id="Fringe_2">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="328" height="505" xlink:href="C52FA757.png"  transform="matrix(8.890700e-02 0 0 8.890700e-02 944.9126 336.2123)">
+			<image style="overflow:visible;enable-background:new    ;" width="328" height="505" xlink:href="C52FA757.png"  transform="matrix(8.890700e-02 0 0 8.890700e-02 802.4871 203.5102)">
 		</image>
 	</g>
 </g>
-<rect id="Water_5" x="965.4" y="349.4" class="st7" width="93.8" height="19.6"/>
-<circle id="Corner_Top_Right" class="st13" cx="1148.8" cy="362.7" r="17.4"/>
+<rect id="Water_5" x="823" y="216.7" class="st7" width="93.8" height="19.6"/>
+<circle id="Corner_Top_Right" class="st13" cx="1006.4" cy="230" r="17.4"/>
 <g id="Fringe_1">
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="321" height="505" xlink:href="C52FA758.png"  transform="matrix(8.946922e-02 0 0 8.946922e-02 765.5546 336.0703)">
+			<image style="overflow:visible;enable-background:new    ;" width="321" height="505" xlink:href="C52FA758.png"  transform="matrix(8.946922e-02 0 0 8.946922e-02 623.1291 203.3682)">
 		</image>
 	</g>
 </g>
-<ellipse id="Suction_Pipe_Opening" class="st7" cx="1086.8" cy="708.6" rx="9.8" ry="3"/>
-<ellipse id="Tank_Empty_End" class="st7" cx="826.8" cy="719.3" rx="9.8" ry="3"/>
-<polygon id="Tank_Water_Back" class="st7" points="380.4,538.9 723.2,539.8 723.2,648.9 380.4,648.9 "/>
+<ellipse id="Suction_Pipe_Opening" class="st7" cx="944.4" cy="575.9" rx="9.8" ry="3"/>
+<ellipse id="Tank_Empty_End" class="st7" cx="684.4" cy="586.6" rx="9.8" ry="3"/>
+<polygon id="Tank_Water_Back" class="st7" points="238,406.2 580.8,407.1 580.8,516.2 238,516.2 "/>
 <g>
-	<polygon class="st1" points="725.4,462.9 725.4,648.3 666.5,717.5 666.5,532.1 	"/>
+	<polygon class="st1" points="583,330.2 583,515.6 524.1,584.8 524.1,399.4 	"/>
 </g>
 <g id="Tank_Empty_Control">
 	<g>
 		<g>
 			
-				<image style="overflow:visible;enable-background:new    ;" width="412" height="508" xlink:href="C52FA7C7.png"  transform="matrix(9.887402e-02 0 0 9.887402e-02 692.5448 626.1713)">
+				<image style="overflow:visible;enable-background:new    ;" width="412" height="508" xlink:href="C52FA7C7.png"  transform="matrix(9.887402e-02 0 0 9.887402e-02 550.1193 493.4692)">
 			</image>
 		</g>
 	</g>
 	<g>
 		<g>
 			
-				<image style="overflow:visible;enable-background:new    ;" width="168" height="503" xlink:href="C52FA7CF.png"  transform="matrix(3.819093e-02 0 0 3.819093e-02 709.7048 612.3116)">
+				<image style="overflow:visible;enable-background:new    ;" width="168" height="503" xlink:href="C52FA7CF.png"  transform="matrix(3.819093e-02 0 0 3.819093e-02 567.2792 479.6095)">
 			</image>
 		</g>
 	</g>
 	<g>
 		<g>
 			
-				<image style="overflow:visible;enable-background:new    ;" width="503" height="188" xlink:href="C52FA7C1.png"  transform="matrix(8.546718e-02 0 0 8.546718e-02 691.4179 606.404)">
+				<image style="overflow:visible;enable-background:new    ;" width="503" height="188" xlink:href="C52FA7C1.png"  transform="matrix(8.546718e-02 0 0 8.546718e-02 548.9924 473.7019)">
 			</image>
 		</g>
 	</g>
@@ -347,201 +348,236 @@
 	<g>
 		<g>
 			
-				<image style="overflow:visible;enable-background:new    ;" width="412" height="508" xlink:href="C52FA7C7.png"  transform="matrix(9.887402e-02 0 0 9.887402e-02 1044.9369 334.1697)">
+				<image style="overflow:visible;enable-background:new    ;" width="412" height="508" xlink:href="C52FA7C7.png"  transform="matrix(9.887402e-02 0 0 9.887402e-02 902.5114 201.4676)">
 			</image>
 		</g>
 	</g>
 	<g>
 		<g>
 			
-				<image style="overflow:visible;enable-background:new    ;" width="168" height="503" xlink:href="C52FA7CF.png"  transform="matrix(3.819093e-02 0 0 3.819093e-02 1062.0968 320.3099)">
+				<image style="overflow:visible;enable-background:new    ;" width="168" height="503" xlink:href="C52FA7CF.png"  transform="matrix(3.819093e-02 0 0 3.819093e-02 919.6713 187.6078)">
 			</image>
 		</g>
 	</g>
 	<g>
 		<g>
 			
-				<image style="overflow:visible;enable-background:new    ;" width="503" height="188" xlink:href="C52FA7C1.png"  transform="matrix(8.546718e-02 0 0 8.546718e-02 1043.8099 314.4023)">
+				<image style="overflow:visible;enable-background:new    ;" width="503" height="188" xlink:href="C52FA7C1.png"  transform="matrix(8.546718e-02 0 0 8.546718e-02 901.3844 181.7002)">
 			</image>
 		</g>
 	</g>
 </g>
-<polygon id="Tank_Water_Left" class="st7" points="380.5,647.7 322.5,718.3 322.5,608.3 380.1,537.7 "/>
+<polygon id="Tank_Water_Left" class="st7" points="238.1,515 180.1,585.6 180.1,475.6 237.7,405 "/>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="99" height="512" xlink:href="C70F2021.png"  transform="matrix(0.3085 0 0 0.3085 402.9937 360.5516)">
+			<image style="overflow:visible;enable-background:new    ;" width="99" height="512" xlink:href="C70F2021.png"  transform="matrix(0.3085 0 0 0.3085 260.5682 227.8495)">
 		</image>
 	</g>
 </g>
-<rect id="Water_7" x="408.5" y="371.2" class="st7" width="19.6" height="297.1"/>
-<rect id="Tank_Water_Front" x="322.5" y="608.3" class="st14" width="344.8" height="110"/>
-<circle id="Corner_Top_Left" class="st13" cx="422.3" cy="361.8" r="17.4"/>
-<line class="st15" x1="667.1" y1="533.1" x2="322.7" y2="532.1"/>
+<rect id="Water_7" x="266.1" y="238.5" class="st7" width="19.6" height="297.1"/>
+<rect id="Tank_Water_Front" x="180.1" y="475.6" class="st14" width="344.8" height="110"/>
+<circle id="Corner_Top_Left" class="st13" cx="279.9" cy="229.1" r="17.4"/>
+<line class="st15" x1="524.7" y1="400.4" x2="180.3" y2="399.4"/>
 <g>
 	<g>
 		<g>
 			
-				<image style="overflow:visible;enable-background:new    ;" width="513" height="238" xlink:href="C52FA7C2.png"  transform="matrix(0.4361 0 0 0.4361 157.847 352.5827)">
+				<image style="overflow:visible;enable-background:new    ;" width="513" height="238" xlink:href="C52FA7C2.png"  transform="matrix(0.4361 0 0 0.4361 15.4215 219.8806)">
 			</image>
 		</g>
 	</g>
-	<path class="st16" d="M343.7,442.2H190.3c-10.2,0-18.4-8.2-18.4-18.4v-29.5c0-10.2,8.2-18.4,18.4-18.4h153.4
-		c10.2,0,18.4,8.2,18.4,18.4v29.5C362.1,434,353.9,442.2,343.7,442.2z"/>
+	<path class="st16" d="M201.3,309.5H47.9c-10.2,0-18.4-8.2-18.4-18.4v-29.5c0-10.2,8.2-18.4,18.4-18.4h153.4
+		c10.2,0,18.4,8.2,18.4,18.4v29.5C219.7,301.3,211.5,309.5,201.3,309.5z"/>
 </g>
 <g>
 	<g>
-		
-			<image style="overflow:visible;enable-background:new    ;" width="513" height="284" xlink:href="C52FA7C3.png"  transform="matrix(0.3177 0 0 0.3177 1206.5643 476.6962)">
-		</image>
+		<g>
+			
+				<image style="overflow:visible;enable-background:new    ;" width="513" height="284" xlink:href="C52FA7C3.png"  transform="matrix(0.2182 0 0 0.2764 1072.1388 343.9941)">
+			</image>
+		</g>
 	</g>
+	<path class="st17" d="M1153.3,415.4h-55.4c-8.4,0-15.2-8.6-15.2-19.3v-18.4c0-10.6,6.8-19.3,15.2-19.3h55.4
+		c8.4,0,15.2,8.6,15.2,19.3v18.4C1168.5,406.7,1161.7,415.4,1153.3,415.4z"/>
 </g>
-<path class="st17" d="M1324.7,558.8h-80.6c-12.2,0-22.2-9.9-22.2-22.2v-21.2c0-12.2,9.9-22.2,22.2-22.2h80.6
-	c12.2,0,22.2,9.9,22.2,22.2v21.2C1346.9,548.8,1336.9,558.8,1324.7,558.8z"/>
-<text transform="matrix(0.945 0 0 1 179.6562 416.2695)" class="st18 st19">00</text>
-<text transform="matrix(1.0432 0 0 1 1251.4033 539.3828)" class="st18 st20">0 %</text>
+<text transform="matrix(0.945 0 0 1 37.2307 283.5674)" class="st18 st19">00</text>
+<text transform="matrix(1.0432 0 0 1 1112.9778 402.6807)" class="st18 st20">1</text>
 <g>
 	<g>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="515" height="174" xlink:href="C52FA7C4.png"  transform="matrix(0.5324 0 0 0.5324 731.296 219.4745)">
+			<image style="overflow:visible;enable-background:new    ;" width="515" height="174" xlink:href="C52FA7C4.png"  transform="matrix(0.5324 0 0 0.5324 588.8705 86.7724)">
 		</image>
 	</g>
 </g>
-<path class="st17" d="M967.7,303.9H766.9c-12.2,0-22.2-9.9-22.2-22.2v-23.4c0-12.2,9.9-22.2,22.2-22.2h200.8
-	c12.2,0,22.2,9.9,22.2,22.2v23.4C989.8,294,979.9,303.9,967.7,303.9z"/>
-<text transform="matrix(0.9887 0 0 1 754.7246 283.2407)" class="st18 st20">100 mm Hg</text>
-<text transform="matrix(1.0432 0 0 1 1216.9141 458.7256)" class="st21 st22">Flow Rate</text>
-<text transform="matrix(1.0397 0 0 1 723.2002 199.7856)" class="st21 st22">Manometer Reading</text>
-<text transform="matrix(0.945 0 0 1 246.7207 415.918)" class="st18 st19">00</text>
-<text transform="matrix(0.945 0 0 1 311.1899 416.7715)" class="st18 st19">00</text>
-<text transform="matrix(0.8527 0 0 1 188.6479 434.3955)" class="st18 st23">min</text>
-<text transform="matrix(0.8527 0 0 1 257.0015 433.542)" class="st18 st23">sec</text>
-<text transform="matrix(0.8527 0 0 1 324.2129 433.542)" class="st18 st23">ms</text>
-<text transform="matrix(0.945 0 0 1 232.1089 412.501)" class="st18 st24">:</text>
-<text transform="matrix(0.945 0 0 1 295.7305 412.1719)" class="st18 st24">:</text>
+<path class="st17" d="M825.3,171.2H624.5c-12.2,0-22.2-9.9-22.2-22.2v-23.4c0-12.2,9.9-22.2,22.2-22.2h200.8
+	c12.2,0,22.2,9.9,22.2,22.2V149C847.4,161.3,837.5,171.2,825.3,171.2z"/>
+<text transform="matrix(0.9887 0 0 1 612.2991 150.5386)" class="st18 st20">100 mm Hg</text>
+<text transform="matrix(1.0432 0 0 1 1053.1389 286.8028)" class="st21 st22 st23"> </text>
+<text transform="matrix(1.0432 0 0 1 1090.6936 286.8028)" class="st21 st22">Valve </text>
+<text transform="matrix(1.0432 0 0 1 1053.1389 325.2027)" class="st21 st22">Positioning</text>
+<text transform="matrix(1.0397 0 0 1 581.7747 67.0835)" class="st21 st22">Manometer Reading</text>
+<text transform="matrix(1.0397 0 0 1 82.8181 205.8184)" class="st21 st22">Timer</text>
+<text transform="matrix(0.945 0 0 1 104.2952 283.2159)" class="st18 st19">00</text>
+<text transform="matrix(0.945 0 0 1 168.7639 284.0694)" class="st18 st19">00</text>
+<text transform="matrix(0.8527 0 0 1 46.2224 301.6934)" class="st18 st24">min</text>
+<text transform="matrix(0.8527 0 0 1 114.5764 300.8399)" class="st18 st24">sec</text>
+<text transform="matrix(0.8527 0 0 1 181.7874 300.8399)" class="st18 st24">ms</text>
+<text transform="matrix(0.945 0 0 1 89.6834 279.7989)" class="st18 st25">:</text>
+<text transform="matrix(0.945 0 0 1 153.3049 279.4698)" class="st18 st25">:</text>
 <g id="Manometer_Scale">
 	<g>
 		<g>
 			
-				<image style="overflow:visible;enable-background:new    ;" width="100" height="513" xlink:href="C52FA7C0.png"  transform="matrix(0.2887 0 0 0.2887 902.9393 377.8034)">
+				<image style="overflow:visible;enable-background:new    ;" width="100" height="513" xlink:href="C52FA7C0.png"  transform="matrix(0.2887 0 0 0.2887 760.5137 245.1013)">
 			</image>
 		</g>
 	</g>
 	<g>
-		<line class="st25" x1="904.1" y1="464" x2="926.5" y2="464"/>
-		<line class="st25" x1="904.1" y1="470.7" x2="926.5" y2="470.7"/>
-		<line class="st25" x1="904.1" y1="477.4" x2="926.5" y2="477.4"/>
-		<line class="st25" x1="904.1" y1="484.1" x2="926.5" y2="484.1"/>
-		<line class="st25" x1="904.1" y1="490.8" x2="926.5" y2="490.8"/>
-		<line class="st25" x1="904.1" y1="497.5" x2="926.5" y2="497.5"/>
-		<line class="st25" x1="904.1" y1="504.2" x2="926.5" y2="504.2"/>
-		<line class="st25" x1="904.1" y1="510.9" x2="926.5" y2="510.9"/>
-		<line class="st25" x1="904.1" y1="517.6" x2="926.5" y2="517.6"/>
+		<line class="st26" x1="761.7" y1="331.3" x2="784.1" y2="331.3"/>
+		<line class="st26" x1="761.7" y1="338" x2="784.1" y2="338"/>
+		<line class="st26" x1="761.7" y1="344.7" x2="784.1" y2="344.7"/>
+		<line class="st26" x1="761.7" y1="351.4" x2="784.1" y2="351.4"/>
+		<line class="st26" x1="761.7" y1="358.1" x2="784.1" y2="358.1"/>
+		<line class="st26" x1="761.7" y1="364.8" x2="784.1" y2="364.8"/>
+		<line class="st26" x1="761.7" y1="371.5" x2="784.1" y2="371.5"/>
+		<line class="st26" x1="761.7" y1="378.2" x2="784.1" y2="378.2"/>
+		<line class="st26" x1="761.7" y1="384.9" x2="784.1" y2="384.9"/>
 		<g>
-			<rect x="904.2" y="378.2" class="st25" width="22.3" height="147.4"/>
-			<line class="st25" x1="904.1" y1="385.7" x2="926.5" y2="385.7"/>
-			<line class="st25" x1="904.1" y1="392" x2="926.5" y2="392"/>
-			<line class="st25" x1="904.1" y1="398.2" x2="926.5" y2="398.2"/>
-			<line class="st25" x1="904.1" y1="404.5" x2="926.5" y2="404.5"/>
-			<line class="st25" x1="904.1" y1="410.7" x2="926.5" y2="410.7"/>
-			<line class="st25" x1="904.1" y1="417" x2="926.5" y2="417"/>
-			<line class="st25" x1="904.1" y1="423.7" x2="926.5" y2="423.7"/>
-			<line class="st25" x1="904.1" y1="430.4" x2="926.5" y2="430.4"/>
-			<line class="st25" x1="904.1" y1="437.1" x2="926.5" y2="437.1"/>
-			<line class="st25" x1="904.1" y1="443.8" x2="926.5" y2="443.8"/>
-			<line class="st25" x1="904.1" y1="450.5" x2="926.5" y2="450.5"/>
-			<line class="st25" x1="904.1" y1="457.3" x2="926.5" y2="457.3"/>
-			<rect x="910.4" y="379" class="st26" width="9.8" height="144.8"/>
-			<text transform="matrix(1.1057 0 0 1 911.5381 387.127)" class="st18 st27">100</text>
-			<text transform="matrix(1.1057 0 0 1 911.5371 519.4229)" class="st18 st27">100</text>
-			<text transform="matrix(1.144 0 0 1 913.5791 392.9932)" class="st18 st28">90</text>
-			<text transform="matrix(1.0581 0 0 1 913.7354 399.1992)" class="st18 st29">80</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 405.6309)" class="st18 st29">70</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 411.7178)" class="st18 st29">60</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 418.373)" class="st18 st29">50</text>
-			<text transform="matrix(1.0581 0 0 1 914.0088 425.3896)" class="st18 st29">40</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 431.5928)" class="st18 st29">30</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 438.1875)" class="st18 st29">20</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 444.8975)" class="st18 st29">10</text>
-			<text transform="matrix(1.0581 0 0 1 914.9121 451.9258)" class="st18 st29">0</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 458.6719)" class="st18 st29">10</text>
-			<text transform="matrix(1.0581 0 0 1 913.9453 465.2354)" class="st18 st29">20</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 485.3525)" class="st18 st29">50</text>
-			<text transform="matrix(1.0581 0 0 1 913.5781 492.1719)" class="st18 st29">60</text>
-			<text transform="matrix(1.0581 0 0 1 913.5781 498.9893)" class="st18 st29">70</text>
-			<text transform="matrix(1.0581 0 0 1 913.5781 505.5879)" class="st18 st29">80</text>
-			<text transform="matrix(1.0581 0 0 1 913.5781 512.2939)" class="st18 st29">90</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 478.5498)" class="st18 st29">40</text>
-			<text transform="matrix(1.0581 0 0 1 913.7656 471.96)" class="st18 st29">30</text>
+			<rect x="761.8" y="245.5" class="st26" width="22.3" height="147.4"/>
+			<line class="st26" x1="761.7" y1="253" x2="784.1" y2="253"/>
+			<line class="st26" x1="761.7" y1="259.3" x2="784.1" y2="259.3"/>
+			<line class="st26" x1="761.7" y1="265.5" x2="784.1" y2="265.5"/>
+			<line class="st26" x1="761.7" y1="271.8" x2="784.1" y2="271.8"/>
+			<line class="st26" x1="761.7" y1="278" x2="784.1" y2="278"/>
+			<line class="st26" x1="761.7" y1="284.3" x2="784.1" y2="284.3"/>
+			<line class="st26" x1="761.7" y1="291" x2="784.1" y2="291"/>
+			<line class="st26" x1="761.7" y1="297.7" x2="784.1" y2="297.7"/>
+			<line class="st26" x1="761.7" y1="304.4" x2="784.1" y2="304.4"/>
+			<line class="st26" x1="761.7" y1="311.1" x2="784.1" y2="311.1"/>
+			<line class="st26" x1="761.7" y1="317.8" x2="784.1" y2="317.8"/>
+			<line class="st26" x1="761.7" y1="324.6" x2="784.1" y2="324.6"/>
+			<rect x="768" y="246.3" class="st27" width="9.8" height="144.8"/>
+			<text transform="matrix(1.1057 0 0 1 769.1125 254.4248)" class="st18 st28">100</text>
+			<text transform="matrix(1.1057 0 0 1 769.1116 386.7207)" class="st18 st28">100</text>
+			<text transform="matrix(1.144 0 0 1 771.1536 260.291)" class="st18 st29">90</text>
+			<text transform="matrix(1.0581 0 0 1 771.3098 266.4971)" class="st18 st30">80</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 272.9287)" class="st18 st30">70</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 279.0157)" class="st18 st30">60</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 285.6709)" class="st18 st30">50</text>
+			<text transform="matrix(1.0581 0 0 1 771.5833 292.6875)" class="st18 st30">40</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 298.8907)" class="st18 st30">30</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 305.4854)" class="st18 st30">20</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 312.1953)" class="st18 st30">10</text>
+			<text transform="matrix(1.0581 0 0 1 772.4866 319.2237)" class="st18 st30">0</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 325.9698)" class="st18 st30">10</text>
+			<text transform="matrix(1.0581 0 0 1 771.5198 332.5332)" class="st18 st30">20</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 352.6504)" class="st18 st30">50</text>
+			<text transform="matrix(1.0581 0 0 1 771.1526 359.4698)" class="st18 st30">60</text>
+			<text transform="matrix(1.0581 0 0 1 771.1526 366.2871)" class="st18 st30">70</text>
+			<text transform="matrix(1.0581 0 0 1 771.1526 372.8858)" class="st18 st30">80</text>
+			<text transform="matrix(1.0581 0 0 1 771.1526 379.5918)" class="st18 st30">90</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 345.8477)" class="st18 st30">40</text>
+			<text transform="matrix(1.0581 0 0 1 771.3401 339.2578)" class="st18 st30">30</text>
 		</g>
 	</g>
+</g>
+<path class="st26" d="M49,489.6"/>
+<path class="st26" d="M48.7,500.5"/>
+<path class="st26" d="M48.7,511.8"/>
+<path class="st26" d="M48.7,523.5"/>
+<g>
+	<line class="st26" x1="118.3" y1="541" x2="188.6" y2="541"/>
+	<line class="st26" x1="118.3" y1="551.6" x2="188.6" y2="551.6"/>
+	<line class="st26" x1="118.3" y1="563.3" x2="188.6" y2="563.3"/>
+	<line class="st26" x1="118.3" y1="575" x2="188.6" y2="575"/>
+	<polyline class="st26" points="188.3,585.7 118.5,585.7 118.5,459.4 	"/>
+	<path class="st26" d="M188.3,459.4"/>
+	<line class="st26" x1="118.3" y1="475.6" x2="188.6" y2="475.6"/>
+	<path class="st26" d="M188.9,474.7"/>
+	<line class="st26" x1="118.3" y1="486.4" x2="188.6" y2="486.4"/>
+	<path class="st26" d="M188.6,485.7"/>
+	<line class="st26" x1="118.3" y1="497.4" x2="188.6" y2="497.4"/>
+	<path class="st26" d="M188.6,496.9"/>
+	<line class="st26" x1="118.3" y1="509" x2="188.6" y2="509"/>
+	<path class="st26" d="M188.6,508.6"/>
+	<line class="st26" x1="118.3" y1="519.7" x2="188.6" y2="519.7"/>
+	<line class="st26" x1="118.3" y1="530.3" x2="188.6" y2="530.3"/>
+	<rect x="115.8" y="455.6" class="st27" width="52.9" height="131.7"/>
+	<text transform="matrix(1.2422 0 0 1 150.2092 579.1816)" class="st18 st31">1</text>
+	<text transform="matrix(1.2422 0 0 1 150.3684 590.375)" class="st18 st31">0</text>
+	<text transform="matrix(1.2422 0 0 1 150.2092 567.3076)" class="st18 st31">2</text>
+	<text transform="matrix(1.2422 0 0 1 150.2092 555.6445)" class="st18 st31">3</text>
+	<text transform="matrix(1.2422 0 0 1 150.2092 544.165)" class="st18 st31">4</text>
+	<text transform="matrix(1.2422 0 0 1 150.2092 534.0195)" class="st18 st31">5</text>
+	<text transform="matrix(1.2422 0 0 1 150.2092 523.4053)" class="st18 st31">6</text>
+	<text transform="matrix(1.2422 0 0 1 150.2092 513.2236)" class="st18 st31">7</text>
+	<text transform="matrix(1.2422 0 0 1 150.2092 501.6143)" class="st18 st31">8</text>
+	<text transform="matrix(1.2422 0 0 1 150.2092 490.4561)" class="st18 st31">9</text>
+	<text transform="matrix(1.2422 0 0 1 146.2092 479.3789)" class="st18 st31">10</text>
+</g>
+<text transform="matrix(0.9985 0 0 1 767.5286 249.5542)" class="st18 st32">mm Hg</text>
+<polygon id="Venturimeter_Water_Left" class="st7" points="642.7,217.7 719.2,221.5 719.2,230.8 642.7,233.9 "/>
+<ellipse id="Venturimeter_Opening_2" class="st7" cx="642.7" cy="225.8" rx="3.5" ry="8.1"/>
+<ellipse id="Venturimeter_Opening_1" class="st7" cx="823" cy="226.5" rx="3.5" ry="9.8"/>
+<rect id="Venturimeter_Throat" x="719.2" y="221.5" class="st7" width="26.3" height="9.3"/>
+<rect id="Manometer_Water_Flow_Path" x="729.2" y="230.8" class="st27" width="4.5" height="2.7"/>
+<rect id="Manometer_Water_Right" x="729.2" y="230.8" class="st7" width="4.5" height="95.2"/>
+<path class="st33" d="M1088.3,463.8c-3.2,8.6-8.3,24.9-8.3,46.5c0,21.7,5.1,38.2,8.3,46.8"/>
+<path class="st33" d="M1134.4,463.8c-3.2,8.6-8.1,24.9-8.2,46.5c0,21.7,5,38.2,8.2,46.8"/>
+<line class="st33" x1="1085" y1="474.1" x2="1131.2" y2="474.1"/>
+<line class="st33" x1="1083.7" y1="478.8" x2="1130" y2="478.8"/>
+<line class="st33" x1="1083" y1="483.5" x2="1129.2" y2="483.5"/>
+<line class="st33" x1="1082.1" y1="488.5" x2="1128.3" y2="488.5"/>
+<line class="st33" x1="1081.2" y1="493.7" x2="1127.4" y2="493.7"/>
+<line class="st33" x1="1080.6" y1="499.3" x2="1126.9" y2="499.3"/>
+<line class="st33" x1="1080" y1="504.9" x2="1126.2" y2="504.9"/>
+<line class="st33" x1="1079.6" y1="510.4" x2="1125.9" y2="510.4"/>
+<line class="st33" x1="1080" y1="515.8" x2="1126.2" y2="515.8"/>
+<line class="st33" x1="1080" y1="521" x2="1126.2" y2="521"/>
+<line class="st33" x1="1081.2" y1="526.8" x2="1127.4" y2="526.8"/>
+<line class="st33" x1="1081.8" y1="532.4" x2="1128" y2="532.4"/>
+<line class="st33" x1="1082.9" y1="537.5" x2="1129.1" y2="537.5"/>
+<line class="st33" x1="1083.8" y1="542.4" x2="1130.1" y2="542.4"/>
+<line class="st33" x1="1085.2" y1="547.4" x2="1131.4" y2="547.4"/>
+<line class="st33" x1="1086.3" y1="551.7" x2="1132.6" y2="551.7"/>
+<line class="st33" x1="1088.2" y1="556.6" x2="1134.4" y2="556.6"/>
+<line class="st33" x1="1086.8" y1="468.9" x2="1133" y2="468.9"/>
+<line class="st33" x1="1088.3" y1="464.1" x2="1134.6" y2="464.1"/>
+<g>
+	<rect x="120.6" y="585.8" width="15.8" height="3.2"/>
+	<polyline points="136.4,581.4 144.5,587.4 136.4,593.4 	"/>
 </g>
 <g>
-	<g>
-		<g>
-			
-				<image style="overflow:visible;enable-background:new    ;" width="90" height="513" xlink:href="C52FA7DE.png"  transform="matrix(0.9477 0 0 0.2422 207.3978 595.8815)">
-			</image>
-		</g>
-	</g>
-	<line class="st25" x1="208.4" y1="676.9" x2="278.7" y2="676.9"/>
-	<line class="st25" x1="208.4" y1="687.2" x2="278.7" y2="687.2"/>
-	<line class="st25" x1="208.4" y1="698.5" x2="278.7" y2="698.5"/>
-	<line class="st25" x1="208.4" y1="709.8" x2="278.7" y2="709.8"/>
-	<rect x="208.6" y="596" class="st25" width="69.8" height="124.2"/>
-	<line class="st25" x1="208.4" y1="613.6" x2="278.7" y2="613.6"/>
-	<path class="st25" d="M279,612.8"/>
-	<path class="st25" d="M208.7,612.8"/>
-	<line class="st25" x1="208.4" y1="624.1" x2="278.7" y2="624.1"/>
-	<path class="st25" d="M278.7,623.4"/>
-	<path class="st25" d="M208.4,623.4"/>
-	<line class="st25" x1="208.4" y1="634.7" x2="278.7" y2="634.7"/>
-	<path class="st25" d="M278.7,634.3"/>
-	<path class="st25" d="M208.4,634.3"/>
-	<line class="st25" x1="208.4" y1="646" x2="278.7" y2="646"/>
-	<path class="st25" d="M278.7,645.6"/>
-	<path class="st25" d="M208.4,645.6"/>
-	<line class="st25" x1="208.4" y1="656.3" x2="278.7" y2="656.3"/>
-	<line class="st25" x1="208.4" y1="666.6" x2="278.7" y2="666.6"/>
-	<rect x="228.1" y="596.6" class="st26" width="30.7" height="122"/>
-	<text transform="matrix(1.1284 0 0 1 236.521 604.7285)" class="st18 st30">cm</text>
-	<text transform="matrix(1.2838 0 0 1 240.3789 713.875)" class="st18 st31">1</text>
-	<text transform="matrix(1.2838 0 0 1 240.3789 702.3857)" class="st18 st31">2</text>
-	<text transform="matrix(1.2838 0 0 1 240.3789 691.0996)" class="st18 st31">3</text>
-	<text transform="matrix(1.2838 0 0 1 240.3789 679.9932)" class="st18 st31">4</text>
-	<text transform="matrix(1.2838 0 0 1 240.3789 670.1758)" class="st18 st31">5</text>
-	<text transform="matrix(1.2838 0 0 1 240.3789 659.9053)" class="st18 st31">6</text>
-	<text transform="matrix(1.2838 0 0 1 240.3789 650.0547)" class="st18 st31">7</text>
-	<text transform="matrix(1.2838 0 0 1 240.3789 638.8203)" class="st18 st31">8</text>
-	<text transform="matrix(1.2838 0 0 1 240.3789 628.0242)" class="st18 st31">9</text>
-	<text transform="matrix(1.2838 0 0 1 236.3789 617.3071)" class="st18 st31">10</text>
+	<rect x="1005.8" y="447.9" class="st34" width="3.2" height="15.8"/>
+	<polyline class="st34" points="1001.4,447.9 1007.4,439.7 1013.4,447.9 	"/>
 </g>
-<text transform="matrix(0.9985 0 0 1 909.9541 382.2563)" class="st18 st32">mm Hg</text>
-<polygon id="Venturimeter_Water_Left" class="st7" points="785.1,350.4 861.6,354.2 861.6,363.5 785.1,366.6 "/>
-<ellipse id="Venturimeter_Opening_2" class="st7" cx="785.1" cy="358.5" rx="3.5" ry="8.1"/>
-<ellipse id="Venturimeter_Opening_1" class="st7" cx="965.4" cy="359.2" rx="3.5" ry="9.8"/>
-<rect id="Venturimeter_Throat" x="861.6" y="354.2" class="st7" width="26.3" height="9.3"/>
-<rect id="Manometer_Water_Flow_Path" x="871.6" y="363.5" class="st26" width="4.5" height="2.7"/>
-<rect id="Manometer_Water_Right" x="871.6" y="363.5" class="st7" width="4.5" height="95.2"/>
-<path class="st33" d="M1230.7,596.5c-3.2,8.6-8.3,24.9-8.3,46.5c0,21.7,5.1,38.2,8.3,46.8"/>
-<path class="st33" d="M1276.8,596.5c-3.2,8.6-8.1,24.9-8.2,46.5c0,21.7,5,38.2,8.2,46.8"/>
-<line class="st33" x1="1227.4" y1="606.8" x2="1273.6" y2="606.8"/>
-<line class="st33" x1="1226.1" y1="611.5" x2="1272.4" y2="611.5"/>
-<line class="st33" x1="1225.4" y1="616.2" x2="1271.6" y2="616.2"/>
-<line class="st33" x1="1224.5" y1="621.2" x2="1270.7" y2="621.2"/>
-<line class="st33" x1="1223.6" y1="626.4" x2="1269.8" y2="626.4"/>
-<line class="st33" x1="1223" y1="632" x2="1269.3" y2="632"/>
-<line class="st33" x1="1222.4" y1="637.6" x2="1268.6" y2="637.6"/>
-<line class="st33" x1="1222" y1="643.1" x2="1268.3" y2="643.1"/>
-<line class="st33" x1="1222.4" y1="648.5" x2="1268.6" y2="648.5"/>
-<line class="st33" x1="1222.4" y1="653.7" x2="1268.6" y2="653.7"/>
-<line class="st33" x1="1223.6" y1="659.5" x2="1269.8" y2="659.5"/>
-<line class="st33" x1="1224.2" y1="665.1" x2="1270.4" y2="665.1"/>
-<line class="st33" x1="1225.3" y1="670.2" x2="1271.5" y2="670.2"/>
-<line class="st33" x1="1226.2" y1="675.1" x2="1272.5" y2="675.1"/>
-<line class="st33" x1="1227.6" y1="680.1" x2="1273.8" y2="680.1"/>
-<line class="st33" x1="1228.7" y1="684.4" x2="1275" y2="684.4"/>
-<line class="st33" x1="1230.6" y1="689.3" x2="1276.8" y2="689.3"/>
-<line class="st33" x1="1229.2" y1="601.6" x2="1275.4" y2="601.6"/>
-<line class="st33" x1="1230.7" y1="596.8" x2="1277" y2="596.8"/>
+<g>
+	<rect x="1005.8" y="364.9" class="st34" width="3.2" height="15.8"/>
+	<polyline class="st34" points="1001.4,364.9 1007.4,356.7 1013.4,364.9 	"/>
+</g>
+<g>
+	<rect x="1005.8" y="281.9" class="st34" width="3.2" height="15.8"/>
+	<polyline class="st34" points="1001.4,281.9 1007.4,273.7 1013.4,281.9 	"/>
+</g>
+<g>
+	<rect x="537.9" y="224.6" class="st34" width="15.8" height="3.2"/>
+	<polyline class="st34" points="538,232.2 529.8,226.2 538,220.1 	"/>
+</g>
+<g>
+	<rect x="859.2" y="224.2" class="st34" width="15.8" height="3.2"/>
+	<polyline class="st34" points="859.3,231.8 851.1,225.8 859.3,219.8 	"/>
+</g>
+<g>
+	<rect x="454.9" y="224.6" class="st34" width="15.8" height="3.2"/>
+	<polyline class="st34" points="455,232.2 446.8,226.2 455,220.1 	"/>
+</g>
+<g>
+	<rect x="371.9" y="224.6" class="st34" width="15.8" height="3.2"/>
+	<polyline class="st34" points="372,232.2 363.8,226.2 372,220.1 	"/>
+</g>
+<g>
+	<rect x="274.3" y="278.8" class="st34" width="3.2" height="15.8"/>
+	<polyline class="st34" points="281.9,294.6 275.9,302.8 269.9,294.6 	"/>
+</g>
 </svg>
