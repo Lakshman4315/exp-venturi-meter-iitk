@@ -41,6 +41,9 @@ p{
 
 input{
     width: 150px;
+    font-size: 10pt;
+    height: 28px;
+    /* width : 300px; */
 }
 
 table{
@@ -64,11 +67,13 @@ td{
     margin-top: 2px;
     /* width: 100%; */
     height: min-content;
-    border-left: 30px solid ;
-    border-right: 30px solid ;
-    border-bottom: 30px solid ;
+    border-left: 20px solid ;
+    border-right: 20px solid ;
+    border-bottom: 20px solid ;
     border-color: #634380;
-}
+    /* box-shadow: 5px 10px black; */
+    box-shadow: 5px 10px 8px #888888;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
 
 .sim_table{
     display: grid;
@@ -160,12 +165,12 @@ td{
     display: flex;
     flex-direction: column;
     grid-area: area6;
-    gap: 40px;
+    gap: 10px;
 }
 
 .data-div{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .item7{
@@ -279,7 +284,3 @@ td{
     height: 60%;
   }
   
-  
-input {
-    width: 100%;
-  }

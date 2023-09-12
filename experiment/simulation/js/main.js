@@ -19,7 +19,7 @@ function power(){
     if(count==0){
         enableButton.style.backgroundColor="#4cae4c"
         tubeButton.disabled=false;
-        document.getElementById("steps").innerHTML="Instructions : Click Flourescent Tube Button"
+        document.getElementById("steps").innerHTML="Instructions : "
         count=1;
     }else{
         enableButton.style.backgroundColor="#ca2222"
@@ -139,3 +139,20 @@ function valueOfFactor2(){
     document.getElementById("steps").innerHTML="Instructions : Note the Result"
     document.getElementById("result").innerHTML="Wattmeter Reading : 12.5 Watts"
 }
+
+
+const playButton = document.getElementById('playButton');
+const audio = document.getElementById('myAudio');
+
+playButton.addEventListener('click', function() {
+    // Check if the audio is paused or ended
+    if (audio.paused || audio.ended) {
+        // Play the audio
+        audio.play();
+        playButton.textContent = 'Pause Audio'; // Change button text
+    } else {
+        // Pause the audio
+        audio.pause();
+        playButton.textContent = 'Play Audio'; // Change button text
+    }
+});
