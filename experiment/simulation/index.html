@@ -14,13 +14,11 @@
     		margin-top:30px;color: white">
             VENTURIMETER SIMULATION</p>
 			<div class="sim_table"  >
-				<div class="instruction" id="steps">Instructions : Enable Power</div>
 				<div class="item1">
 
-					<div id="mycanvas" style="width: 100%;height: 100%;">
+					<div id="mycanvas" >
 
-
-						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="500px" x="0px" y="0px"
 							 viewBox="0 0 1278.6 856.9" style="enable-background:new 0 0 1278.6 856.9;" xml:space="preserve">
 						<style type="text/css">
 							.st0{enable-background:new    ;}
@@ -46,7 +44,7 @@
 							.st20{font-size:45px;}
 							.st21{font-family:'TimesNewRomanPS-BoldMT';}
 							.st22{font-size:32px;}
-							.st23{letter-spacing:26.8;}
+							.st23{letter-spacing:25.9;}
 							.st24{font-size:19.7019px;}
 							.st25{font-size:47.7148px;}
 							.st26{fill:none;stroke:#23005F;stroke-width:0.75;stroke-miterlimit:10;}
@@ -71,7 +69,7 @@
 						<g>
 							<g>
 								
-									<image style="overflow:visible;enable-background:new    ;" width="646" height="271" xlink:href="B5BEEBF1.png"  transform="matrix(0.9981 0 0 0.9981 588.4767 511.9675)">
+									<image style="overflow:visible;enable-background:new    ;" width="646" height="271" xlink:href="B5BEEBF1.png"  transform="matrix(0.9981 0 0 0.9981 588.6469 511.6271)">
 								</image>
 							</g>
 						</g>
@@ -134,7 +132,7 @@
 								</g>
 							</g>
 						</g>
-						<polygon id="Water_Tank_Base" class="st7" points="523.4,584.8 181.1,583 238.7,515.3 581,517 "/>
+						<polygon id="Water_Tank_Base" class="st7" points="523.4,584.8 181.1,583 238.7,515.3 581,517 " opacity="0"/>
 						<g>
 							<g>
 								<g class="st0">
@@ -200,8 +198,10 @@
 								</image>
 							</g>
 						</g>
-						<rect id="Mercury_Left" x="726.8" y="326" class="st11" width="7.4" height="37.5"/>
-						<rect id="Mercury_Right" x="810.1" y="326" class="st11" width="7.5" height="37"/>
+						<g transform="scale(1,-1) translate(0,-200)">
+							<rect id="Mercury_Left" x="725.6" y="-165"  class="st11" width="7.4" height="32.2"/>
+							<rect id="Mercury_Right" x="810.1" y="-165" class="st11" width="7.5" height="31.7"/>
+						</g>
 						<g id="Mercury_Fixed">
 							<g>
 								<path class="st11" d="M817.6,362.1c0.1,1,0,5.6-0.1,7.4c-0.1,2.7-0.6,9.4-4.9,17.1c-6.3,11.1-15,17.5-16.9,18.4
@@ -287,12 +287,26 @@
 								</image>
 							</g>
 						</g>
-						<rect id="Water_1" x="934.6" y="518.9" class="st7" width="19.6" height="56.8"/>
-						<rect id="Water_9" x="674.5" y="529.9" class="st7" width="19.6" height="56.8"/>
-						<rect id="Water_3" x="997.6" y="236.3" class="st7" width="19.6" height="254.5"/>
-						<rect id="Water_4" x="928.9" y="216.3" class="st7" width="77.5" height="19.6"/>
-						<rect id="Water_2" x="940.8" y="503.8" class="st7" width="56.8" height="19.6"/>
-						<rect id="Water_8" x="587.5" y="509.1" class="st7" width="87.2" height="19.6"/>
+						<rect id="Water_9" x="674.5" y="529.9" class="st7" width="19.6" height="0"/>
+						<rect id="Water_2" x="940.8" y="503.8" class="st7" width="0" height="19.6"/>
+						
+						
+						<g transform="scale(1,-1) translate(0,-200)">
+							<rect id="Water_1" x="934.6" y="-375" class="st7" width="19.6" height="56.8" opacity="0"></rect>
+							<rect id="Water_3" x="997" y="-300.4" class="st7" width="19.6" height="263.4" opacity="0"></rect>
+						</g> 
+
+
+
+						
+						
+						<rect id="Water_4" x="995" y="217.2" class="st7" width="0" height="19.6" opacity="1"  >
+							<!-- <animate attributeName="width" from="0" to="56.8" dur="3s" fill="freeze" />
+							<animate attributeName="x" from="995" to="938.2" dur="3s" fill="freeze" /> -->
+						</rect>
+
+
+						<rect id="Water_8" x="587.5" y="509.1" class="st7" width="0" height="19.6"/>
 						<circle id="Suction_Pipe_Corner" class="st13" cx="946.6" cy="515.7" r="17.4"/>
 						<circle id="Tank_Empty_Corner" class="st13" cx="680.7" cy="522.6" r="17.4"/>
 						<g id="Pump">
@@ -302,9 +316,9 @@
 								</image>
 							</g>
 						</g>
-						<rect id="Manometer_Water_Right_00000080197925184150286820000005080878160067944331_" x="812.1" y="231.2" class="st7" width="4.2" height="94.8"/>
-						<polygon id="Venturimeter_Water_Right" class="st7" points="822.1,234.6 745.6,230.8 745.6,221.5 822.1,218.4 "/>
-						<rect id="Water_6" x="282.3" y="216.7" class="st7" width="338.9" height="19.6"/>
+						<rect id="Manometer_Water_Right_00000080197925184150286820000005080878160067944331_" x="811.8" y="231.2" class="st7" width="4.2" height="0" />
+						<polygon id="Venturimeter_Water_Right" class="st7" points="745.5,221.5 817.6,217.1 817.1,234.5 745.5,230.8 " opacity="0"/>
+						<rect id="Water_6" x="621.1" y="216.7" class="st7" width="0" height="19.6"/>
 						<g id="Fringe_4">
 							<g>
 								
@@ -326,7 +340,6 @@
 								</image>
 							</g>
 						</g>
-						<rect id="Water_5" x="823" y="216.7" class="st7" width="93.8" height="19.6"/>
 						<circle id="Corner_Top_Right" class="st13" cx="1006.4" cy="230" r="17.4"/>
 						<g id="Fringe_1">
 							<g>
@@ -335,9 +348,10 @@
 								</image>
 							</g>
 						</g>
+						<rect id="Water_5" x="905" y="216.7" class="st7" width="0" height="19.6"/>
 						<ellipse id="Suction_Pipe_Opening" class="st7" cx="944.4" cy="575.9" rx="9.8" ry="3"/>
-						<ellipse id="Tank_Empty_End" class="st7" cx="684.4" cy="586.6" rx="9.8" ry="3"/>
-						<polygon id="Tank_Water_Back" class="st7" points="238,406.2 580.8,407.1 580.8,516.2 238,516.2 "/>
+						<ellipse id="Tank_Empty_End" class="st7" cx="684.4" cy="592.6" rx="9.8" ry="3"/>
+						<polygon id="Tank_Water_Back" class="st7" points="238,516.2 580.8,516.2 580.8,516.2 238,516.2 " opacity="1"/>
 						<g>
 							<polygon class="st1" points="583,330.2 583,515.6 524.1,584.8 524.1,399.4 	"/>
 						</g>
@@ -387,7 +401,7 @@
 								</g>
 							</g>
 						</g>
-						<polygon id="Tank_Water_Left" class="st7" points="238.1,515 180.1,585.6 180.1,475.6 237.7,405 "/>
+						<polygon id="Tank_Water_Left" class="st7" points="238.1,516.1 180.1,586.7 180.1,586.7 237.7,516.1 " opacity="1"/>
 						<g>
 							<g>
 								
@@ -395,8 +409,12 @@
 								</image>
 							</g>
 						</g>
-						<rect id="Water_7" x="266.1" y="238.5" class="st7" width="19.6" height="297.1"/>
-						<rect id="Tank_Water_Front" x="180.1" y="475.6" class="st14" width="344.8" height="110"/>
+						<rect id="Water_7" x="266.1" y="238.5" class="st7" width="19.6" height="0"/>
+
+						<g transform="scale(1,-1) translate(0,-200)">
+							<rect id="Tank_Water_Front" x="179.6" y="-386" class="st14" width="344.8" height="110" opacity="0"/>
+						</g>
+
 						<circle id="Corner_Top_Left" class="st13" cx="279.9" cy="229.1" r="17.4"/>
 						<line class="st15" x1="524.7" y1="400.4" x2="180.3" y2="399.4"/>
 						<g>
@@ -414,15 +432,17 @@
 							<g>
 								<g>
 									
-										<image style="overflow:visible;enable-background:new    ;" width="513" height="284" xlink:href="C52FA7C3.png"  transform="matrix(0.2182 0 0 0.2764 1072.1388 343.9941)">
+										<image style="overflow:visible;enable-background:new    ;" width="513" height="284" xlink:href="C52FA7C3.png"  transform="matrix(0.2182 0 0 0.2764 1072.1388 243.9941)">
 									</image>
 								</g>
 							</g>
-							<path class="st17" d="M1153.3,415.4h-55.4c-8.4,0-15.2-8.6-15.2-19.3v-18.4c0-10.6,6.8-19.3,15.2-19.3h55.4
-								c8.4,0,15.2,8.6,15.2,19.3v18.4C1168.5,406.7,1161.7,415.4,1153.3,415.4z"/>
+							<g transform="translate(0 -100)">
+								<path class="st17" d="M1153.3,415.4h-55.4c-8.4,0-15.2-8.6-15.2-19.3v-18.4c0-10.6,6.8-19.3,15.2-19.3h55.4
+									c8.4,0,15.2,8.6,15.2,19.3v18.4C1168.5,406.7,1161.7,415.4,1153.3,415.4z"/>
+								</g>
 						</g>
-						<text transform="matrix(0.945 0 0 1 37.2307 283.5674)" class="st18 st19">00</text>
-						<text id="valve-positioning-text" transform="matrix(1.0432 0 0 1 1112.9778 402.6807)" class="st18 st20">1</text>
+						<text transform="matrix(0.945 0 0 1 37.231 283.5676)" class="st18 st19">00</text>
+						<text id="valve-positioning-text" transform="matrix(1.0432 0 0 1 1112.9775 300.6808)" class="st18 st20">0</text>
 						<g>
 							<g>
 								
@@ -432,19 +452,19 @@
 						</g>
 						<path class="st17" d="M825.3,171.2H624.5c-12.2,0-22.2-9.9-22.2-22.2v-23.4c0-12.2,9.9-22.2,22.2-22.2h200.8
 							c12.2,0,22.2,9.9,22.2,22.2V149C847.4,161.3,837.5,171.2,825.3,171.2z"/>
-						<text transform="matrix(0.9887 0 0 1 612.2991 150.5386)" class="st18 st20">100 mm Hg</text>
-						<text transform="matrix(1.0432 0 0 1 1053.1389 286.8028)" class="st21 st22 st23"> </text>
-						<text transform="matrix(1.0432 0 0 1 1090.6936 286.8028)" class="st21 st22">Valve </text>
-						<text transform="matrix(1.0432 0 0 1 1053.1389 325.2027)" class="st21 st22">Positioning</text>
-						<text transform="matrix(1.0397 0 0 1 581.7747 67.0835)" class="st21 st22">Manometer Reading</text>
-						<text transform="matrix(1.0397 0 0 1 82.8181 205.8184)" class="st21 st22">Timer</text>
-						<text transform="matrix(0.945 0 0 1 104.2952 283.2159)" class="st18 st19">00</text>
-						<text transform="matrix(0.945 0 0 1 168.7639 284.0694)" class="st18 st19">00</text>
-						<text transform="matrix(0.8527 0 0 1 46.2224 301.6934)" class="st18 st24">min</text>
-						<text transform="matrix(0.8527 0 0 1 114.5764 300.8399)" class="st18 st24">sec</text>
-						<text transform="matrix(0.8527 0 0 1 181.7874 300.8399)" class="st18 st24">ms</text>
-						<text transform="matrix(0.945 0 0 1 89.6834 279.7989)" class="st18 st25">:</text>
-						<text transform="matrix(0.945 0 0 1 153.3049 279.4698)" class="st18 st25">:</text>
+						<text id="manometer-text" transform="matrix(0.9887 0 0 1 630.2988 150.5388)"  class="st18 st20">0 mm Hg</text>
+						<text transform="matrix(1.0432 0 0 1 1053.1387 286.8029)" class="st21 st22 st23"> </text>
+						<text transform="matrix(1.0432 0 0 1 1090.6934 186.8029)" class="st21 st22">Valve </text>
+						<text transform="matrix(1.0432 0 0 1 1053.1387 225.2028)" class="st21 st22">Positioning</text>
+						<text transform="matrix(1.0397 0 0 1 581.7744 67.0837)" class="st21 st22">Manometer Reading</text>
+						<text transform="matrix(1.0397 0 0 1 82.8179 205.8185)" class="st21 st22">Timer</text>
+						<text id="timer-sec" transform="matrix(0.945 0 0 1 104.2954 283.216)" class="st18 st19">00</text>
+						<text id="timer-ms" transform="matrix(0.945 0 0 1 168.7642 284.0695)" class="st18 st19">00</text>
+						<text transform="matrix(0.8527 0 0 1 46.2227 301.6935)" class="st18 st24">min</text>
+						<text transform="matrix(0.8527 0 0 1 114.5767 300.84)" class="st18 st24">sec</text>
+						<text transform="matrix(0.8527 0 0 1 181.7876 300.84)" class="st18 st24">ms</text>
+						<text transform="matrix(0.945 0 0 1 89.6836 279.799)" class="st18 st25">:</text>
+						<text transform="matrix(0.945 0 0 1 153.3052 279.4699)" class="st18 st25">:</text>
 						<g id="Manometer_Scale">
 							<g>
 								<g>
@@ -478,27 +498,27 @@
 									<line class="st26" x1="761.7" y1="317.8" x2="784.1" y2="317.8"/>
 									<line class="st26" x1="761.7" y1="324.6" x2="784.1" y2="324.6"/>
 									<rect x="768" y="246.3" class="st27" width="9.8" height="144.8"/>
-									<text transform="matrix(1.1057 0 0 1 769.1125 254.4248)" class="st18 st28">100</text>
-									<text transform="matrix(1.1057 0 0 1 769.1116 386.7207)" class="st18 st28">100</text>
-									<text transform="matrix(1.144 0 0 1 771.1536 260.291)" class="st18 st29">90</text>
-									<text transform="matrix(1.0581 0 0 1 771.3098 266.4971)" class="st18 st30">80</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 272.9287)" class="st18 st30">70</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 279.0157)" class="st18 st30">60</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 285.6709)" class="st18 st30">50</text>
-									<text transform="matrix(1.0581 0 0 1 771.5833 292.6875)" class="st18 st30">40</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 298.8907)" class="st18 st30">30</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 305.4854)" class="st18 st30">20</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 312.1953)" class="st18 st30">10</text>
-									<text transform="matrix(1.0581 0 0 1 772.4866 319.2237)" class="st18 st30">0</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 325.9698)" class="st18 st30">10</text>
-									<text transform="matrix(1.0581 0 0 1 771.5198 332.5332)" class="st18 st30">20</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 352.6504)" class="st18 st30">50</text>
-									<text transform="matrix(1.0581 0 0 1 771.1526 359.4698)" class="st18 st30">60</text>
-									<text transform="matrix(1.0581 0 0 1 771.1526 366.2871)" class="st18 st30">70</text>
-									<text transform="matrix(1.0581 0 0 1 771.1526 372.8858)" class="st18 st30">80</text>
-									<text transform="matrix(1.0581 0 0 1 771.1526 379.5918)" class="st18 st30">90</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 345.8477)" class="st18 st30">40</text>
-									<text transform="matrix(1.0581 0 0 1 771.3401 339.2578)" class="st18 st30">30</text>
+									<text transform="matrix(1.1057 0 0 1 769.1123 254.425)" class="st18 st28">100</text>
+									<text transform="matrix(1.1057 0 0 1 769.1113 386.7209)" class="st18 st28">100</text>
+									<text transform="matrix(1.144 0 0 1 771.1533 260.2912)" class="st18 st29">90</text>
+									<text transform="matrix(1.0581 0 0 1 771.3105 266.4973)" class="st18 st30">80</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 272.9289)" class="st18 st30">70</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 279.0158)" class="st18 st30">60</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 285.6711)" class="st18 st30">50</text>
+									<text transform="matrix(1.0581 0 0 1 771.584 292.6877)" class="st18 st30">40</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 298.8908)" class="st18 st30">30</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 305.4855)" class="st18 st30">20</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 312.1955)" class="st18 st30">10</text>
+									<text transform="matrix(1.0581 0 0 1 772.4873 319.2238)" class="st18 st30">0</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 325.9699)" class="st18 st30">10</text>
+									<text transform="matrix(1.0581 0 0 1 771.5205 332.5334)" class="st18 st30">20</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 352.6506)" class="st18 st30">50</text>
+									<text transform="matrix(1.0581 0 0 1 771.1533 359.4699)" class="st18 st30">60</text>
+									<text transform="matrix(1.0581 0 0 1 771.1533 366.2873)" class="st18 st30">70</text>
+									<text transform="matrix(1.0581 0 0 1 771.1533 372.8859)" class="st18 st30">80</text>
+									<text transform="matrix(1.0581 0 0 1 771.1533 379.592)" class="st18 st30">90</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 345.8478)" class="st18 st30">40</text>
+									<text transform="matrix(1.0581 0 0 1 771.3408 339.258)" class="st18 st30">30</text>
 								</g>
 							</g>
 						</g>
@@ -524,25 +544,29 @@
 							<line class="st26" x1="118.3" y1="519.7" x2="188.6" y2="519.7"/>
 							<line class="st26" x1="118.3" y1="530.3" x2="188.6" y2="530.3"/>
 							<rect x="115.8" y="455.6" class="st27" width="52.9" height="131.7"/>
-							<text transform="matrix(1.2422 0 0 1 150.2092 579.1816)" class="st18 st31">1</text>
-							<text transform="matrix(1.2422 0 0 1 150.3684 590.375)" class="st18 st31">0</text>
-							<text transform="matrix(1.2422 0 0 1 150.2092 567.3076)" class="st18 st31">2</text>
-							<text transform="matrix(1.2422 0 0 1 150.2092 555.6445)" class="st18 st31">3</text>
-							<text transform="matrix(1.2422 0 0 1 150.2092 544.165)" class="st18 st31">4</text>
-							<text transform="matrix(1.2422 0 0 1 150.2092 534.0195)" class="st18 st31">5</text>
-							<text transform="matrix(1.2422 0 0 1 150.2092 523.4053)" class="st18 st31">6</text>
-							<text transform="matrix(1.2422 0 0 1 150.2092 513.2236)" class="st18 st31">7</text>
-							<text transform="matrix(1.2422 0 0 1 150.2092 501.6143)" class="st18 st31">8</text>
-							<text transform="matrix(1.2422 0 0 1 150.2092 490.4561)" class="st18 st31">9</text>
-							<text transform="matrix(1.2422 0 0 1 146.2092 479.3789)" class="st18 st31">10</text>
+							<text transform="matrix(1.2422 0 0 1 150.209 579.1818)" class="st18 st31">1</text>
+							<text transform="matrix(1.2422 0 0 1 150.3682 590.3752)" class="st18 st31">0</text>
+							<text transform="matrix(1.2422 0 0 1 150.209 567.3078)" class="st18 st31">2</text>
+							<text transform="matrix(1.2422 0 0 1 150.209 555.6447)" class="st18 st31">3</text>
+							<text transform="matrix(1.2422 0 0 1 150.209 544.1652)" class="st18 st31">4</text>
+							<text transform="matrix(1.2422 0 0 1 150.209 534.0197)" class="st18 st31">5</text>
+							<text transform="matrix(1.2422 0 0 1 150.209 523.4055)" class="st18 st31">6</text>
+							<text transform="matrix(1.2422 0 0 1 150.209 513.2238)" class="st18 st31">7</text>
+							<text transform="matrix(1.2422 0 0 1 150.209 501.6144)" class="st18 st31">8</text>
+							<text transform="matrix(1.2422 0 0 1 150.209 490.4562)" class="st18 st31">9</text>
+							<text transform="matrix(1.2422 0 0 1 146.209 479.3791)" class="st18 st31">10</text>
+							<text transform="matrix(1.2422 0 0 1 146.209 468.3791)" class="st18 st31">cm</text>
+
 						</g>
-						<text transform="matrix(0.9985 0 0 1 767.5286 249.5542)" class="st18 st32">mm Hg</text>
-						<polygon id="Venturimeter_Water_Left" class="st7" points="642.7,217.7 719.2,221.5 719.2,230.8 642.7,233.9 "/>
+						<text transform="matrix(0.9985 0 0 1 767.5283 249.5544)"  class="st18 st32">mm Hg</text>
+						<text transform="matrix(0.9985 0 0 1 850 290)" style="font-size: 20px; font-weight:bold " >Flow Rate Valve</text>
+						<text transform="matrix(0.9985 0 0 1 600 490)" style="font-size: 20px; font-weight:bold " >Purge Valve</text>
+						<polygon id="Venturimeter_Water_Left" class="st7" points="642.7,217.7 719.2,221.5 719.2,230.8 642.7,233.9 " opacity="0"/>
 						<ellipse id="Venturimeter_Opening_2" class="st7" cx="642.7" cy="225.8" rx="3.5" ry="8.1"/>
 						<ellipse id="Venturimeter_Opening_1" class="st7" cx="823" cy="226.5" rx="3.5" ry="9.8"/>
-						<rect id="Venturimeter_Throat" x="719.2" y="221.5" class="st7" width="26.3" height="9.3"/>
+						<rect id="Venturimeter_Throat" x="745.5" y="221.5" class="st7" width="0" height="9.3"/>
 						<rect id="Manometer_Water_Flow_Path" x="729.2" y="230.8" class="st27" width="4.5" height="2.7"/>
-						<rect id="Manometer_Water_Right" x="729.2" y="230.8" class="st7" width="4.5" height="95.2"/>
+						<rect id="Manometer_Water_Left" x="728.8" y="230.8" class="st7" width="4.5" height="0" />
 						<path class="st33" d="M1088.3,463.8c-3.2,8.6-8.3,24.9-8.3,46.5c0,21.7,5.1,38.2,8.3,46.8"/>
 						<path class="st33" d="M1134.4,463.8c-3.2,8.6-8.1,24.9-8.2,46.5c0,21.7,5,38.2,8.2,46.8"/>
 						<line class="st33" x1="1085" y1="474.1" x2="1131.2" y2="474.1"/>
@@ -565,42 +589,54 @@
 						<line class="st33" x1="1086.8" y1="468.9" x2="1133" y2="468.9"/>
 						<line class="st33" x1="1088.3" y1="464.1" x2="1134.6" y2="464.1"/>
 						<g>
-							<rect x="120.6" y="585.8" width="15.8" height="3.2"/>
-							<polyline points="136.4,581.4 144.5,587.4 136.4,593.4 	"/>
+							<rect id="arrow-rect" x="120.6" y="585.8" width="15.8" height="3.2"/>
+							<polyline id="arrow-pol" points="136.4,581.4 144.5,587.4 136.4,593.4 	"/>
 						</g>
-						<g>
-							<rect x="1005.8" y="447.9" class="st34" width="3.2" height="15.8"/>
-							<polyline class="st34" points="1001.4,447.9 1007.4,439.7 1013.4,447.9 	"/>
-						</g>
-						<g>
-							<rect x="1005.8" y="364.9" class="st34" width="3.2" height="15.8"/>
-							<polyline class="st34" points="1001.4,364.9 1007.4,356.7 1013.4,364.9 	"/>
-						</g>
-						<g>
-							<rect x="1005.8" y="281.9" class="st34" width="3.2" height="15.8"/>
-							<polyline class="st34" points="1001.4,281.9 1007.4,273.7 1013.4,281.9 	"/>
-						</g>
-						<g>
-							<rect x="537.9" y="224.6" class="st34" width="15.8" height="3.2"/>
-							<polyline class="st34" points="538,232.2 529.8,226.2 538,220.1 	"/>
-						</g>
-						<g>
-							<rect x="859.2" y="224.2" class="st34" width="15.8" height="3.2"/>
-							<polyline class="st34" points="859.3,231.8 851.1,225.8 859.3,219.8 	"/>
-						</g>
-						<g>
-							<rect x="454.9" y="224.6" class="st34" width="15.8" height="3.2"/>
-							<polyline class="st34" points="455,232.2 446.8,226.2 455,220.1 	"/>
-						</g>
-						<g>
-							<rect x="371.9" y="224.6" class="st34" width="15.8" height="3.2"/>
-							<polyline class="st34" points="372,232.2 363.8,226.2 372,220.1 	"/>
-						</g>
-						<g>
-							<rect x="274.3" y="278.8" class="st34" width="3.2" height="15.8"/>
-							<polyline class="st34" points="281.9,294.6 275.9,302.8 269.9,294.6 	"/>
+
+						<g id="svg-container-1">
+							<g class="arrow-1"  opacity="0">
+								<rect x="1005.8" y="447.9" class="st34" width="3.2" height="15.8"/>
+								<polyline class="st34" points="1001.4,447.9 1007.4,439.7 1013.4,447.9 	"/>
+							</g>
+							<g class="arrow-1"  opacity="0">
+								<rect x="1005.8" y="364.9" class="st34" width="3.2" height="15.8"/>
+								<polyline class="st34" points="1001.4,364.9 1007.4,356.7 1013.4,364.9 	"/>
+							</g>
+							<g class="arrow-1"  opacity="0">
+								<rect x="1005.8" y="281.9" class="st34" width="3.2" height="15.8"/>
+								<polyline class="st34" points="1001.4,281.9 1007.4,273.7 1013.4,281.9 	"/>
+							</g>
+							<g class="arrow-1" opacity="0">
+								<rect x="859.2" y="224.2" class="st34" width="15.8" height="3.2"/>
+								<polyline class="st34" points="859.3,231.8 851.1,225.8 859.3,219.8 	"/>
+							</g>
+							<g class="arrow-1"  opacity="0">
+								<rect x="537.9" y="224.6" class="st34" width="15.8" height="3.2"/>
+								<polyline class="st34" points="538,232.2 529.8,226.2 538,220.1 	"/>
+							</g>
+							
+							<g class="arrow-1" opacity="0">
+								<rect x="454.9" y="224.6" class="st34" width="15.8" height="3.2"/>
+								<polyline class="st34" points="455,232.2 446.8,226.2 455,220.1 	"/>
+							</g>
+							<g class="arrow-1" opacity="0">
+								<rect x="371.9" y="224.6" class="st34" width="15.8" height="3.2"/>
+								<polyline class="st34" points="372,232.2 363.8,226.2 372,220.1 	"/>
+							</g>
+							<g class="arrow-1" opacity="0">
+								<rect x="274.3" y="278.8" class="st34" width="3.2" height="15.8"/>
+								<polyline class="st34" points="281.9,294.6 275.9,302.8 269.9,294.6 	"/>
+							</g>
 						</g>
 						</svg>
+
+						<div class="instruction">
+							<h5 ><u>Instructions</u></h5>
+							<p id="steps">Welcome to the simulation! Please Start the Simulator by using Power On Button.
+
+							</p>
+						</div>
+						
 						
 				
 
@@ -613,8 +649,11 @@
 
 							<div class="item3" style="font-size: 20px; font-weight: bold;">
 								Valve Positioning
-								<input class="flow-rate-slider" min="0" max="3" type="range" step="1" value="0" >
+								<input id="flow-rate-slider" name ="slider" min="0" max="3" type="range" step="1" value="0" disabled="True" onchange="updateValvePositioning()" >
 							</div>
+
+							<button class="itemx" type="button"  style="width:100%; border: solid #080808 3px;" id="purze" disabled="True" onclick="purzeAction()"> CLOSE PURGE VALVE </button>
+
 
 							<div class="item6">
 
@@ -624,7 +663,7 @@
 									<div class="item4" style="padding: 0%;display: flex;flex-direction: column;gap: 5px;">
 										<h2 style="text-align: center;padding: .5%;margin: 0%;background-color: #634380;color: white;">Formulaes</h2>
 										
-										<p style="text-align: center;  font-size:20px; font-weight: bolder;">
+										<p style="text-align: center;  font-size:20px; font-weight: bolder; padding: 10px;">
 											<math style="font-weight: bold;" xmlns="http://www.w3.org/1998/Math/MathML">
 												<msub>
 													<mi>Q</mi>
@@ -661,7 +700,7 @@
 										</p>
 
 
-										<p style="text-align: center;  font-size:20px; font-weight: bolder;">
+										<p style="text-align: center;  font-size:20px; font-weight: bolder; padding: 10px;">
 											<math style="font-weight: bold;" xmlns="http://www.w3.org/1998/Math/MathML">
 												<msub>
 													<mi>Q</mi>
@@ -716,7 +755,7 @@
 										</p>
 										
 		
-										<p style="text-align: center;;  font-weight: bolder;">
+										<p style="text-align: center;;  font-weight: bolder; padding: 10px;">
 											<math xmlns="http://www.w3.org/1998/Math/MathML" style="  font-size:20px; font-weight: bold;">
 												<msub>
 												<mi>C</mi>
@@ -792,7 +831,7 @@
 										<td><input type="number"></td>
 										<td><input type="number"></td>
 										<td><input type="number"></td>
-										<td rowspan="3"><input type="number"></td>	
+										<td  id="avg-cd" rowspan="3"><input type="number"></td>	
 									</tr>
 									<tr>
 										<td>2.</td>
@@ -812,7 +851,7 @@
 									</tr>
 								</table>
 
-								<button type="button" class="calculate-button" style="border: solid black 3px; border-radius: 5px; padding: 5px;" >Calculate</button>
+								<button type="button" class="calculate-button" style="border: solid black 3px; border-radius: 5px; padding: 5px;" onclick="checkYourResult()" >Check Your Result</button>
 
 								<div  style="margin:auto; display: flex; gap: 40px ;">
 									<button style=" margin-bottom: 40px; border: solid black 3px; border-radius: 5px; padding: 5px; " onclick="window.print()">Print this page</button>
@@ -822,11 +861,6 @@
 
 
 							</div>
-
-							
-
-							
-
 
 
 						</div>
