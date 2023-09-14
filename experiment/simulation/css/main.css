@@ -67,7 +67,7 @@ td{
 .sim{
     background-color: #f7eee0; 
     margin: 100px;
-    margin-top: 2px;
+    margin-top: 50px;
     /* width: 100%; */
     height: min-content;
     border-left: 25px solid ;
@@ -75,6 +75,7 @@ td{
     border-bottom: 25px solid ;
     border-color: #634380;
     box-shadow: 5px 10px 8px #888888;
+    position: absolute;
 }
 
 .sim_table{

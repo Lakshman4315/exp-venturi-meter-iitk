@@ -39,6 +39,8 @@ var svgElements1 = document.querySelectorAll(".arrow-1");
 
 var animationTimeouts = [];
 
+const  audio = document.getElementById("audio")
+
 
 
 function displayArrows() {
@@ -65,19 +67,27 @@ function stopAnimation() {
 function power(){
     if(count==0){
         enableButton.style.backgroundColor = "#4cae4c"
-        document.getElementById("steps").innerHTML = "Please wait until the water reaches the  Gate valve."
+        document.getElementById("steps").innerHTML = "Please wait until the water reaches the Flow Rate Valve."
         enableButton.textContent = "POWER OFF"
         count=1
 
-        
-        // toggleArrow()
+        audio.play()
+
         waterFlow1()
 
     }else{
         enableButton.style.backgroundColor = "#ca2222"
-        document.getElementById("steps").innerHTML = "Step1: Turn Power On"
+        document.getElementById("steps").innerHTML = "Turn Power On"
         enableButton.textContent = "POWER ON"
         count = 0
+        audio.pause()
+        audio.currentTime = 0;
+
+        valvePositioning.disabled=true
+        purzeButton.disabled=true
+
+        // w1.setAttribute("opacity","0")/
+        w2.setAttribute("width","0")
         
     }
 }
@@ -87,8 +97,19 @@ function power(){
 
 valvePositioning.addEventListener("change", updateValvePositioning);
 
+let isWaterFlow1Running = false;
+let waterFlow1Timeout;
 
 function waterFlow1() {
+
+    // if (isWaterFlow6Running) {
+    //     w1.setAttribute("opacity","0")
+    //     return;
+    // }
+
+    // isWaterFlow6Running = true;
+
+
     const animateElement = document.createElementNS("http://www.w3.org/2000/svg", "animate");
     animateElement.setAttribute("attributeName", "height");
     animateElement.setAttribute("from", "0");
@@ -125,9 +146,22 @@ function waterFlow1() {
 
     setTimeout(function() {
         w1.setAttribute("opacity","1")
+        // isWaterFlow1Running = false;
         waterFlow2()
 
       }, 2500);
+
+    // document.getElementById("enable").addEventListener("click", function () {
+    //     if (isWaterFlow1Running) {
+    //         animateElement.remove()
+    //         animateOpacity.remove()
+    //         clearTimeout(waterFlow1Timeout); // Stop the function
+    //         isWaterFlow1Running = false; // Reset the flag
+    //     }
+    // });
+    // waterFlow1Timeout = setTimeout(function () {
+    //     isWaterFlow6Running = false;
+    // }, 4000);
 }
 
 
@@ -299,9 +333,9 @@ function waterFlow7(){
     
 }
 
+let isWaterFlow6Running = false;
 
 function waterFlow6(){
-
 
     w6.style.opacity=1
 
@@ -409,6 +443,7 @@ function waterFlow14(){
 
             document.getElementById("steps").innerHTML = "Take note of the manometer reading, and then close the purge valve using the purge valve button."
             purzeButton.disabled = false;
+            valvePositioning.disabled = false;
         }, 1000);
     }
 }
@@ -461,7 +496,6 @@ function waterFlow12(){
 
 
 function fillTankFront(){
-    purzeButton.disabled = true;
 
     waterTankFront.setAttribute("opacity", "1")
 
@@ -482,7 +516,7 @@ function fillTankFront(){
     setTimeout(function() {
 
         document.getElementById("steps").innerHTML = "Take note of the current time on the timer, and then readjust the gate valve value using the slider for additional measurements. Finally, use the provided data to calculate Qact, Qth, and Cd."
-        purzeButton.disabled = false;
+        purzeButton.disabled = true;
       }, 1000);
 
 }   
@@ -553,7 +587,7 @@ function displayTimer(targetsec,targetms){
 
     if(valvePositioning.value==2){
         if(timerRunning){
-            milliseconds+=(20*(5/27));
+            milliseconds+=(35*(5/27));
             if(milliseconds >= (100)){
                 milliseconds -= 100;
                 seconds++;
@@ -571,9 +605,9 @@ function displayTimer(targetsec,targetms){
 
     if(valvePositioning.value==3){
         if(timerRunning){
-            milliseconds+=(1000*(5/24));
-            if(milliseconds >= (1000)){
-                milliseconds -= 1000;
+            milliseconds+=(30*(5/24));
+            if(milliseconds >= (100)){
+                milliseconds -= 100;
                 seconds++;
                 if(seconds == 60){
                     seconds = 0;
@@ -582,7 +616,7 @@ function displayTimer(targetsec,targetms){
         }
         let s = seconds < 10 ? "0" + seconds : seconds;
         let ms = milliseconds < 10 ? "0" + milliseconds : milliseconds < 100 ? "" + milliseconds : milliseconds;
-        ms=parseInt(ms/10)
+        ms=parseInt(ms)
         timerSec.textContent = s;
         timerMS.textContent = ms;
     }
@@ -623,16 +657,23 @@ function purzeAction(){
     }if(valvePositioning.value==3){
         timer(24,"00")
     }
+
+    valvePositioning.disabled= true
     fillTankFront()
     waterTankBackFlow(516.2)
     waterTankSideFlow(586.7,516.1)
 
     arrowMovement()
     arrowMovement2(581.4, 587.4, 593.4 )
+
+    
 }
 
 
 function updateValvePositioning() {
+
+
+
     stopAnimation()
     shouldStop=false
     displayArrows()
@@ -733,3 +774,5 @@ function checkYourResult() {
 
 // // Initial text
 // changeText();
+
+
