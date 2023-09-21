@@ -562,8 +562,11 @@
 
 						</g>
 						<text transform="matrix(0.9985 0 0 1 767.5283 249.5544)"  class="st18 st32">mm Hg</text>
-						<text transform="matrix(0.9985 0 0 1 850 290)" style="font-size: 20px; font-weight:bold " >Flow Rate Valve</text>
-						<text transform="matrix(0.9985 0 0 1 600 490)" style="font-size: 20px; font-weight:bold " >Purge Valve</text>
+						<text x="850" y="250" style="font-size: 30px;">
+							<tspan x="850" dy="1.2em">Flow Rate</tspan>
+							<tspan x="870" dy="1.2em">Valve</tspan>
+						</text>
+						<text transform="matrix(0.9985 0 0 1 600 490)" style="font-size: 30px;  " >Gate Valve</text>
 						<polygon id="Venturimeter_Water_Left" class="st7" points="642.7,217.7 719.2,221.5 719.2,230.8 642.7,233.9 " opacity="0"/>
 						<ellipse id="Venturimeter_Opening_2" class="st7" cx="642.7" cy="225.8" rx="3.5" ry="8.1"/>
 						<ellipse id="Venturimeter_Opening_1" class="st7" cx="823" cy="226.5" rx="3.5" ry="9.8"/>
@@ -650,14 +653,27 @@
 
 							<button class="item2" type="button"  style="width:100%; border: solid #080808 3px;" id="enable" onclick="power()"> POWER ON </button>
 
-							<div class="item3" style="font-size: 20px; font-weight: bold;">
+							<div class="item3" style="font-size: 20px; font-weight: bold; display: flex; flex-direction: row; gap: 20px; align-content: center; justify-content: center; align-self: auto; ">
 								Valve Positioning
-								<input id="flow-rate-slider" name ="slider" min="0" max="3" type="range" step="1" value="0" disabled="True" onchange="updateValvePositioning()" >
+								<div style="display: flex; flex-direction: column">
+									
+									<input id="flow-rate-slider" list="markers" name ="slider" min="0" max="3" type="range" step="1" value="0" disabled="True" onchange="updateValvePositioning()" >
+								
+									<datalist id="values">
+										<option value="0" label="0"></option>
+										<option value="1" label="1"></option>
+										<option value="2" label="2"></option>
+										<option value="3" label="3"></option>
+									</datalist>
+
+								</div>
+								  
 							</div>
 
-							<button class="itemx" type="button"  style="width:100%; border: solid #080808 3px;" id="purze" disabled="True" onclick="purzeAction()"> CLOSE PURGE VALVE </button>
 
+							<button class="itemx" type="button"  style="width:100%; border: solid #080808 3px;" id="purze" disabled="True" onclick="purzeAction()"> CLOSE GATE VALVE </button>
 
+							<div class="page-break"></div>
 							<div class="item6">
 
 								<h1 style="text-align: center;">OBSERVATION</h1>
@@ -814,11 +830,11 @@
 										<th>S.No:</th>
 										<th>Manometer reading <br> in mm of Hg <br>(H)</th>
 										<th>Time taken for collecting <br> 10 cm rise of  water<br>in collecting tank <br>(sec)</th>
-										<th>Q_Theoritical 
+										<th>Q<sub>th</sub> x 10<sup>-4</sup>
 			<br>
 											(m<sup>3</sup>/s)
 											</th>
-										<th>Q_act <br>
+										<th>Q<sub>act</sub>  x 10<sup>-4</sup> <br>
 											(m<sup>3</sup>/s)
 											</th>
 										<th>C<sub>d</sub>
@@ -829,36 +845,86 @@
 									</tr>
 									<tr>
 										<td>1.</td>
-										<td><input type="text"></td>
-										<td><input type="number"></td>
-										<td><input type="number"></td>
-										<td><input type="number"></td>
-										<td><input type="number"></td>
-										<td  id="avg-cd" rowspan="3"><input type="number"></td>	
+										<td id="H1"><input type="number"></td>
+										<td id="T1"><input type="number"></td>
+										<td id="Qt1"><input type="number"></td>
+										<td id="Qact1"><input type="number"></td>
+										<td id="Cd1"><input type="number" disabled="true"></td>
+										<td  id="avg-cd" rowspan="3"><input type="number" disabled="true"></td>	
 									</tr>
 									<tr>
 										<td>2.</td>
-										<td><input type="text"></td>
-										<td><input type="number"></td>
-										<td><input type="number"></td>
-										<td><input type="number"></td>
-										<td><input type="number"></td>
+										<td id="H2"><input type="number"></td>
+										<td id="T2"><input type="number"></td>
+										<td id="Qt2"><input type="number"></td>
+										<td id="Qact2"><input type="number"></td>
+										<td id="Cd2"><input type="number" disabled="true"></td>
 									</tr>
 									<tr>
 										<td>3.</td>
-										<td><input type="text"></td>
-										<td><input type="number"></td>
-										<td><input type="number"></td>
-										<td><input type="number"></td>
-										<td><input type="number"></td>
+										<td id="H3"><input type="number"></td>
+										<td id="T3"><input type="number"></td>
+										<td id="Qt3"><input type="number"></td>
+										<td id="Qact3"><input type="number"></td>
+										<td id="Cd3"><input type="number" disabled="true"></td>
 									</tr>
 								</table>
 
-								<button type="button" class="calculate-button" style="border: solid black 3px; border-radius: 5px; padding: 5px;" onclick="checkYourResult()" >Check Your Result</button>
+
+								<table id="tab1" class="result-table" border="1" style="display: none;">
+									<tr>
+										<th colspan="7" style="font-size: 25px; font-weight: bolder; background-color: #634380;color: white;">Observation Table</th>
+									</tr>
+									<tr>
+										<th>S.No:</th>
+										<th>Manometer reading <br> in mm of Hg <br>(H)</th>
+										<th>Time taken for collecting <br> 10 cm rise of  water<br>in collecting tank <br>(sec)</th>
+										<th>Q<sub>th</sub>  x 10<sup>-4</sup> 
+			<br>
+											(m<sup>3</sup>/s)
+											</th>
+										<th>Q<sub>act</sub>  x 10<sup>-4</sup> <br>
+											(m<sup>3</sup>/s)
+											</th>
+										<th>C<sub>d</sub>
+										
+										</th>
+										<th >Avg. C<sub>d</sub>
+											</th>
+									</tr>
+									<tr>
+										<td>1.</td>
+										<td id="H1"><input type="number" disabled="true" value="37"></td>
+										<td id="T1"><input type="number" disabled="true" value="35"></td>
+										<td id="Qt1"><input type="number" disabled="true" value="3.82"></td>
+										<td id="Qact1"><input type="number" disabled="true" value="3.42"></td>
+										<td id="Cd1"><input type="number" disabled="true" value="0.895"></td>
+										<td  id="avg-cd" rowspan="3"><input type="number" disabled="true" value="0.934"></td>	
+									</tr>
+									<tr>
+										<td>2.</td>
+										<td id="H2"><input type="number" disabled="true" value="50"></td>
+										<td id="T2"><input type="number" disabled="true" value="27.74"></td>
+										<td id="Qt2"><input type="number" disabled="true" value="4.44"></td>
+										<td id="Qact2"><input type="number" disabled="true" value="4.32"></td>
+										<td id="Cd2"><input type="number" disabled="true" value="0.9729"></td>
+									</tr>
+									<tr>
+										<td>3.</td>
+										<td id="H3"><input type="number" disabled="true" value="72"></td>
+										<td id="T3"><input type="number" disabled="true" value="24"></td>
+										<td id="Qt3"><input type="number" disabled="true" value="5.34"></td>
+										<td id="Qact3"><input type="number" disabled="true" value="5.0"></td>
+										<td id="Cd3"><input type="number" disabled="true" value="0.9363"></td>
+									</tr>
+								</table>
+
+								<button type="button" class="checkYourResult" style="border: solid black 3px; border-radius: 5px; padding: 5px;" onclick="calculate()" >Calculate</button>
+
+								<button id="check-button" type="button" class="checkYourResult" style="border: solid black 3px; border-radius: 5px; padding: 5px;" disabled="true" onclick="checkYourResult()" >Check Your Result</button>
 
 								<div  style="margin:auto; display: flex; gap: 40px ;">
 									<button style=" margin-bottom: 40px; border: solid black 3px; border-radius: 5px; padding: 5px; " onclick="window.print()">Print this page</button>
-									<button style= "margin-bottom: 40px; border: solid black 3px; border-radius: 5px; padding: 5px; " >Save the data</button>
 									
 								</div>
 
@@ -877,6 +943,9 @@
 						
 
 				<!-- Add JS at the bottom of HTML file --> 
+				<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+				<script src="https://apis.google.com/js/api.js"></script>
 					<script src="./js/main.js"></script>
+					<script src="./js/calculation.js"></script>
 			</body>
 			</html>
