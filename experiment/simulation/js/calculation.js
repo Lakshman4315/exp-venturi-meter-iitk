@@ -25,13 +25,13 @@ function calculate(){
     if(h1.querySelector("input").value=="" || h2.querySelector("input").value=="" || h3.querySelector("input").value=="" || t1.querySelector("input").value=="" || t2.querySelector("input").value=="" || t3.querySelector("input").value=="" || qt1.querySelector("input").value=="" || qt2.querySelector("input").value=="" || qt3.querySelector("input").value=="" || qact1.querySelector("input").value=="" || qact2.querySelector("input").value=="" || qact3.querySelector("input").value=="" ){
         alert("Please Fill all input fields or Enter valid values in all input fields.");
     }else{
-        cd1.querySelector("input").value = qact1.querySelector("input").value/qt1.querySelector("input").value
+        cd1.querySelector("input").value = (qact1.querySelector("input").value/qt1.querySelector("input").value).toFixed(4)
 
-        cd2.querySelector("input").value = qact2.querySelector("input").value/qt2.querySelector("input").value
+        cd2.querySelector("input").value = (qact2.querySelector("input").value/qt2.querySelector("input").value).toFixed(4)
     
-        cd3.querySelector("input").value = qact3.querySelector("input").value/qt3.querySelector("input").value
+        cd3.querySelector("input").value = (qact3.querySelector("input").value/qt3.querySelector("input").value).toFixed(4)
     
-        cdAvg.querySelector("input").value = ((qact1.querySelector("input").value/qt1.querySelector("input").value) + (qact2.querySelector("input").value/qt2.querySelector("input").value) + (qact3.querySelector("input").value/qt3.querySelector("input").value)) / 3
+        cdAvg.querySelector("input").value = (((qact1.querySelector("input").value/qt1.querySelector("input").value) + (qact2.querySelector("input").value/qt2.querySelector("input").value) + (qact3.querySelector("input").value/qt3.querySelector("input").value)) / 3).toFixed(4)
     
         document.querySelector("#check-button").disabled = false
     }

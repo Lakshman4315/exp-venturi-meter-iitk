@@ -45,23 +45,17 @@ const  audio = document.getElementById("audio")
 
 function displayArrows() {
     var delay = 0;
-    svgElements1.forEach(function (element) {
-        setTimeout(function () {
-            element.style.animation = "arrowAnimation 1s infinite";
-        }, delay);
-        delay += 1000;
-    });
-}
-function stopAnimation() {
-
-    svgElements1.forEach(function (element) {
-        element.style.animation = "none"; // Reset the animation
+        svgElements1.forEach(function (element) {
+            element.style.animation = "arrowAnimation 1s infinite";       
     });
     
 }
-
-
-
+function stopAnimation() {
+        svgElements1.forEach(function (element) {
+            element.setAttribute("opacity","0")
+            element.style.animation = "none";
+        });
+}
 
 //Power Button
 function power(){
@@ -110,9 +104,6 @@ function power(){
 
 
 
-        // w1.setAttribute("opacity","0")/
-        // w2.setAttribute("width","0")
-
         resetAll()
         
     }
@@ -141,10 +132,22 @@ function resetAll(){
     w11.setAttribute("opacity","0")
     w12.setAttribute("height","0")
 
+    purzeButton.disabled= true;
 
-    svgElements1.forEach(function (element) {
-        element.style.animation = "none";
-    });
+    stopAnimation()
+
+    arrowRect.setAttribute("y","585.8")
+    arrowPol.setAttribute("points","136.4,581.4 144.5,587.4 136.4,593.4 ")
+    waterTankBack.setAttribute("points","238,516.2 580.8,516.2 580.8,516.2 238,516.2")
+    waterTankFront.setAttribute("opacity","0")
+    waterTankLeft.setAttribute("points","238,516.2 580.8,516.2 580.8,516.2 238,516.2")
+    waterTankBase.setAttribute("opacity","0")
+
+    manometerText.textContent = "0 mm Hg"
+
+    // stopAnimation()    // svgElements1.forEach(function (element) {
+    //     element.style.animation = "none";
+    // });
 
 }
 
@@ -164,7 +167,7 @@ let stopWaterFlow10 = false;
 let stopWaterFlow9 = false;
 let stopWaterFlow12 = false;
 let stopWaterFlow13 = false;
-
+let stopDisplayArrow = true;
 
 
 
@@ -424,12 +427,6 @@ function waterFlow6(){
             }
         }, 4000);
     }
-
-    
-
-
-    
-
 }
 
 
@@ -468,9 +465,6 @@ function waterFlow11(){
     animateX.setAttribute("fill","freeze");
 
     w11.appendChild(animateX)
-
-    
-
 
     if(count==0){
         animateElement.endElement()
@@ -749,7 +743,7 @@ function updateValvePositioning() {
 
 
 
-    stopAnimation()
+    // stopAnimations()
     shouldStop=false
     displayArrows()
     reset()
@@ -802,31 +796,3 @@ function arrowMovement2(y1,y2,y3){
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-// function changeText() {
-//   if (currentTextIndex < textToType.length) {
-//     currentText = textToType[currentTextIndex];
-//     textElement.textContent = "";
-//     currentCharacterIndex = 0;
-//     typeText();
-//     currentTextIndex++;
-//   } else {
-//     currentTextIndex = 0;
-//   }
-// }
-
-// // Initial text
-// changeText();
-
-
