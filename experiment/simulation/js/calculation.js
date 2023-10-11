@@ -178,3 +178,33 @@ function checkYourResult() {
         document.querySelector(".result-table").style.display = "flex"
     }
 }
+
+
+function saveData() {
+    var table = document.getElementById("table-data");
+    var rows = table.getElementsByTagName("tr");
+    var csvContent = [];
+
+    for (var i = 0; i < rows.length; i++) {
+        var row = [], cols = rows[i].querySelectorAll("td, th");
+
+        for (var j = 0; j < cols.length; j++) {
+            row.push(cols[j].innerText);
+        }
+
+        csvContent.push(row.join(","));
+    }
+
+    var csvString = csvContent.join("\n");
+    var blob = new Blob([csvString], { type: "text/csv;charset=utf-8;" });
+    var link = document.createElement("a");
+
+    if (link.download !== undefined) {
+        var url = URL.createObjectURL(blob);
+        link.setAttribute("href", url);
+        link.setAttribute("download", "table.csv");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+}

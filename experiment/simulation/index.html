@@ -303,9 +303,7 @@
 
 						
 						
-						<rect id="Water_4" x="995" y="217.2" class="st7" width="0" height="19.6" opacity="1"  >
-							<!-- <animate attributeName="width" from="0" to="56.8" dur="3s" fill="freeze" />
-							<animate attributeName="x" from="995" to="938.2" dur="3s" fill="freeze" /> -->
+						<rect id="Water_4" x="995" y="217.2" class="st7" width="0" height="19.6" opacity="1">
 						</rect>
 
 
@@ -822,7 +820,7 @@
 
 								</div>
 
-								<table id="tab1" border="1">
+								<table id="tab1 " border="2">
 									<tr>
 										<th colspan="7" style="font-size: 25px; font-weight: bolder; background-color: #634380;color: white;">Observation Table</th>
 									</tr>
@@ -871,7 +869,7 @@
 								</table>
 
 
-								<table id="tab1" class="result-table" border="1" style="display: none;">
+								<table id="tab1 table-data" class="result-table" border="1" style="display: none;">
 									<tr>
 										<th colspan="7" style="font-size: 25px; font-weight: bolder; background-color: #634380;color: white;">Observation Table</th>
 									</tr>
@@ -925,7 +923,8 @@
 
 								<div  style="margin:auto; display: flex; gap: 40px ;">
 									<button style=" margin-bottom: 40px; border: solid black 3px; border-radius: 5px; padding: 5px; " onclick="window.print()">Print this page</button>
-									
+									<button id="save-btn" style=" margin-bottom: 40px; border: solid black 3px; border-radius: 5px; padding: 5px; " onclick="saveData()">Save the data</button>
+
 								</div>
 
 
@@ -935,17 +934,9 @@
 						</div>
 					</div> 
 
-						
-
-
-						
-
-						
-
 				<!-- Add JS at the bottom of HTML file --> 
 				<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-				<script src="https://apis.google.com/js/api.js"></script>
-					<script src="./js/main.js"></script>
+				<script src="./js/main.js"></script>
 					<script src="./js/calculation.js"></script>
-			</body>
+					</body>
 			</html>

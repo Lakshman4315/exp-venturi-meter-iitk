@@ -44,7 +44,6 @@ const  audio = document.getElementById("audio")
 
 
 function displayArrows() {
-    var delay = 0;
         svgElements1.forEach(function (element) {
             element.style.animation = "arrowAnimation 1s infinite";       
     });
@@ -77,6 +76,7 @@ function power(){
         stopWaterFlow9 = false
         stopWaterFlow12 = false
         stopWaterFlow13 = false
+        shouldStop=false
 
         waterFlow1()
 
@@ -102,8 +102,8 @@ function power(){
         stopWaterFlow12 = true
         stopWaterFlow13 = true
 
-
-
+        
+        
         resetAll()
         
     }
@@ -111,12 +111,16 @@ function power(){
 
 //purze action
 function resetAll(){
+    valvePositioningText.textContent = '0'
+    valvePositioning.value = 0
+
     w1.setAttribute("opacity","0")
     w2.setAttribute("width","0")
     w2.setAttribute("opacity","0")
     w3.setAttribute("opacity","0")
     w4.setAttribute("width","0")
     w4.setAttribute("opacity","0")
+
     clearTimeout(timeoutId4)
     valvePositioning.disabled = true
 
@@ -145,9 +149,12 @@ function resetAll(){
 
     manometerText.textContent = "0 mm Hg"
 
-    // stopAnimation()    // svgElements1.forEach(function (element) {
-    //     element.style.animation = "none";
-    // });
+    shouldStop=true
+    
+    resetTimer()
+    
+    w13.setAttribute("width","0")
+    w14.setAttribute("height","0")
 
 }
 
@@ -748,10 +755,19 @@ function updateValvePositioning() {
     displayArrows()
     reset()
     resetTimer()
+
+
+
     var selectedValue = valvePositioning.value;
+    if(selectedValue == 0){
+        document.getElementById("steps").innerHTML = "Select the value of Valve Positioning greater than 0!"
+        w5.setAttribute("opacity","0")
+    }else{
+        waterFlow5() 
+        valvePositioning.disabled = true;
+    }
+    
     valvePositioningText.textContent = selectedValue;
-    waterFlow5() 
-    valvePositioning.disabled = true;
 }
 
 function reset(){

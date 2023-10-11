@@ -57,9 +57,7 @@ input{
 
 table{
     margin: auto;
-    border-left: 20px solid ;
-    border-right: 20px solid ;
-    border-bottom: 20px solid ;
+    border: 2px solid;
     
 }
 
