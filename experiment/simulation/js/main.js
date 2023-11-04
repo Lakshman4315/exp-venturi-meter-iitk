@@ -64,7 +64,6 @@ function power(){
         enableButton.textContent = "POWER OFF"
         count=1
 
-        // audio.play()
         stopWaterFlow2=false
         stopWaterFlow3=false
         stopWaterFlow4=false
