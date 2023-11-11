@@ -6,6 +6,10 @@ var t1 = document.getElementById("T1")
 var t2 = document.getElementById("T2")
 var t3 = document.getElementById("T3")
 
+var H1 = document.getElementById("h1")
+var H2 = document.getElementById("h2")
+var H3 = document.getElementById("h3")
+
 var qact1 = document.getElementById("Qact1")
 var qact2 = document.getElementById("Qact2")
 var qact3 = document.getElementById("Qact3")
@@ -22,7 +26,7 @@ var cdAvg = document.getElementById("avg-cd")
 
 function calculate(){
 
-    if(h1.querySelector("input").value=="" || h2.querySelector("input").value=="" || h3.querySelector("input").value=="" || t1.querySelector("input").value=="" || t2.querySelector("input").value=="" || t3.querySelector("input").value=="" || qt1.querySelector("input").value=="" || qt2.querySelector("input").value=="" || qt3.querySelector("input").value=="" || qact1.querySelector("input").value=="" || qact2.querySelector("input").value=="" || qact3.querySelector("input").value=="" ){
+    if(h1.querySelector("input").value=="" || h2.querySelector("input").value=="" || h3.querySelector("input").value=="" || H1.querySelector("input").value=="" || H2.querySelector("input").value=="" || H3.querySelector("input").value=="" || t1.querySelector("input").value=="" || t2.querySelector("input").value=="" || t3.querySelector("input").value=="" || qt1.querySelector("input").value=="" || qt2.querySelector("input").value=="" || qt3.querySelector("input").value=="" || qact1.querySelector("input").value=="" || qact2.querySelector("input").value=="" || qact3.querySelector("input").value=="" ){
         alert("Please Fill all input fields or Enter valid values in all input fields.");
     }else{
         cd1.querySelector("input").value = (qact1.querySelector("input").value/qt1.querySelector("input").value).toFixed(4)
@@ -76,6 +80,27 @@ function checkYourResult() {
     if(t3.querySelector("input").value!=24){
         t3.querySelector("input").style.color = "red"
         flag= false
+    }
+
+    if(H1.querySelector("input").value!=37*12.6){
+        H1.querySelector("input").style.color = "red"
+        flag= false
+    }else{
+        H1.querySelector("input").style.color = "black"
+    }
+
+    if(H2.querySelector("input").value!=50*12.6){
+        H2.querySelector("input").style.color = "red"
+        flag= false
+  
+    }else{
+        H2.querySelector("input").style.color = "black"
+    }
+    if(H3.querySelector("input").value!=72*12.6){
+        H3.querySelector("input").style.color = "red"
+        flag= false
+    }else{
+        H3.querySelector("input").style.color = "black"
     }
 
     if(qact1.querySelector("input").value> 3.249 && qact1.querySelector("input").value< 3.59){

@@ -590,7 +590,9 @@ function fillTankFront(){
 
         document.getElementById("steps").innerHTML = "Take note of the current time on the timer, and then readjust the gate valve value using the slider for additional readings. Finally, use the provided data to calculate Qact and Qth."
         purzeButton.disabled = false;
-
+        if(valvePositioning.value == 3){
+            document.getElementById("steps").innerHTML = "Take note of the current time on the timer and use the provided data to calculate Qact and Qth."
+        }
       }, 1000);
 
     setTimeout(function(){

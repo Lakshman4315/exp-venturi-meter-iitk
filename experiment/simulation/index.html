@@ -457,7 +457,7 @@
 						<text transform="matrix(1.0432 0 0 1 1053.1387 286.8029)" class="st21 st22 st23"> </text>
 						<text transform="matrix(1.0432 0 0 1 1090.6934 186.8029)" class="st21 st22">Valve </text>
 						<text transform="matrix(1.0432 0 0 1 1053.1387 225.2028)" class="st21 st22">Positioning</text>
-						<text transform="matrix(1.0397 0 0 1 581.7744 67.0837)" class="st21 st22">Manometer Reading</text>
+						<text transform="matrix(1.0397 0 0 1 581.7744 67.0837)" class="st21 st22">Manometer Reading (H)</text>
 						<text transform="matrix(1.0397 0 0 1 82.8179 205.8185)" class="st21 st22">Timer</text>
 						<text id="timer-sec" transform="matrix(0.945 0 0 1 104.2954 283.216)" class="st18 st19">00</text>
 						<text id="timer-ms" transform="matrix(0.945 0 0 1 168.7642 284.0695)" class="st18 st19">00</text>
@@ -715,7 +715,27 @@
 											
 		
 										</p>
-
+										<p style="text-align: center;  font-size:20px; font-weight: bolder; padding: 10px;">
+											<math style="font-weight: bold;" xmlns="http://www.w3.org/1998/Math/MathML">
+												<msub>
+													<mi>h</mi>
+												</msub>
+												<mo>=</mo>
+												<mfrac>
+												<mrow>
+													<msub>
+													<mi>H</mi>
+													</msub>
+													<msub>
+													<mi> x </mi>
+													</msub>
+													<msub>
+													<mi>12.6</mi>
+													</msub>
+												</mrow>
+												</mfrac>
+											</math>
+										</p>
 
 										<p style="text-align: center;  font-size:20px; font-weight: bolder; padding: 10px;">
 											<math style="font-weight: bold;" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -811,7 +831,7 @@
 											
 												Area of the tank(A) = 0.12 m<sup>2</sup> <br>
 												Inlet diameter in meters(d<sub>1</sub>) = 0.025 m <br>
-												Throat diameter in meter (d<sub>2</sub>) = 0.0125 m <br>
+												Throat diameter in meter (d<sub>2</sub>) = 0.0125 m 
 											
 											
 										</p>
@@ -822,12 +842,13 @@
 
 								<table id="tab1 " border="2">
 									<tr>
-										<th colspan="7" style="font-size: 25px; font-weight: bolder; background-color: #634380;color: white;">Observation Table</th>
+										<th colspan="8" style="font-size: 25px; font-weight: bolder; background-color: #634380;color: white;">Observation Table</th>
 									</tr>
 									<tr>
 										<th>S.No:</th>
 										<th>Manometer reading <br> in mm of Hg <br>(H)</th>
 										<th>Time taken for collecting <br> 10 cm rise of  water<br>in collecting tank <br>(sec)</th>
+										<th>h<br>(m)</th>
 										<th>Q<sub>th</sub> x 10<sup>-4</sup>
 			<br>
 											(m<sup>3</sup>/s)
@@ -845,6 +866,7 @@
 										<td>1.</td>
 										<td id="H1"><input type="number"></td>
 										<td id="T1"><input type="number"></td>
+										<td id="h1"><input type="number"></td>
 										<td id="Qt1"><input type="number"></td>
 										<td id="Qact1"><input type="number"></td>
 										<td id="Cd1"><input type="number" disabled="true"></td>
@@ -854,6 +876,7 @@
 										<td>2.</td>
 										<td id="H2"><input type="number"></td>
 										<td id="T2"><input type="number"></td>
+										<td id="h2"><input type="number"></td>
 										<td id="Qt2"><input type="number"></td>
 										<td id="Qact2"><input type="number"></td>
 										<td id="Cd2"><input type="number" disabled="true"></td>
@@ -862,6 +885,7 @@
 										<td>3.</td>
 										<td id="H3"><input type="number"></td>
 										<td id="T3"><input type="number"></td>
+										<td id="h3"><input type="number"></td>
 										<td id="Qt3"><input type="number"></td>
 										<td id="Qact3"><input type="number"></td>
 										<td id="Cd3"><input type="number" disabled="true"></td>
@@ -877,6 +901,7 @@
 										<th>S.No:</th>
 										<th>Manometer reading <br> in mm of Hg <br>(H)</th>
 										<th>Time taken for collecting <br> 10 cm rise of  water<br>in collecting tank <br>(sec)</th>
+										<th>h<br>(m)</th>
 										<th>Q<sub>th</sub>  x 10<sup>-4</sup> 
 			<br>
 											(m<sup>3</sup>/s)
@@ -894,6 +919,7 @@
 										<td>1.</td>
 										<td id="H1"><input type="number" disabled="true" value="37"></td>
 										<td id="T1"><input type="number" disabled="true" value="35"></td>
+										<td id="h1"><input type="number" disabled="true" value="466.2"></td>
 										<td id="Qt1"><input type="number" disabled="true" value="3.82"></td>
 										<td id="Qact1"><input type="number" disabled="true" value="3.42"></td>
 										<td id="Cd1"><input type="number" disabled="true" value="0.895"></td>
@@ -903,6 +929,7 @@
 										<td>2.</td>
 										<td id="H2"><input type="number" disabled="true" value="50"></td>
 										<td id="T2"><input type="number" disabled="true" value="27.74"></td>
+										<td id="h2"><input type="number" disabled="true" value="630"></td>
 										<td id="Qt2"><input type="number" disabled="true" value="4.44"></td>
 										<td id="Qact2"><input type="number" disabled="true" value="4.32"></td>
 										<td id="Cd2"><input type="number" disabled="true" value="0.9729"></td>
@@ -911,6 +938,7 @@
 										<td>3.</td>
 										<td id="H3"><input type="number" disabled="true" value="72"></td>
 										<td id="T3"><input type="number" disabled="true" value="24"></td>
+										<td id="h3"><input type="number" disabled="true" value="907.2"></td>
 										<td id="Qt3"><input type="number" disabled="true" value="5.34"></td>
 										<td id="Qact3"><input type="number" disabled="true" value="5.0"></td>
 										<td id="Cd3"><input type="number" disabled="true" value="0.9363"></td>
